@@ -1,0 +1,68 @@
+{
+ "models": {
+  "A": "Qwen/Qwen3.5-4B",
+  "B": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+  "C": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+ },
+ "holds": {
+  "plain": [
+   "general"
+  ],
+  "stem": [
+   "general",
+   "stem"
+  ]
+ },
+ "setup_seeds": [
+  1,
+  2,
+  3
+ ],
+ "write_seeds": [
+  400,
+  401
+ ],
+ "checkpoints": {
+  "plain_1_onboard.pt": "863a65684817103d960ea5ed75ae26d4ecc531adcc58336dc144d81923652ca2",
+  "plain_1_setup.pt": "2efa75dbd75f64767037601a289f70a514a2ce84ec6216344c7b18442d81725b",
+  "stem_1_onboard.pt": "5481af4703b1e18d3b650be4c3cdea3d9a9bc6ca8bd861df56a254d82658b434",
+  "stem_1_setup.pt": "87b60739349b326f017575bd55ac9660feffbac2826e83c2f522a0544fc23397",
+  "plain_2_onboard.pt": "e00f458c29970e7aec6e74ba71b28718e4d8feca9a71a1915cc48c882c0ee321",
+  "plain_2_setup.pt": "e74ed57de7fd5228af24dc25dc565caffda4d530a32db621feb3d788160c90b4",
+  "stem_2_onboard.pt": "5fc51c5ea06e7d2f38694ac554aa702e206ce13875848aa141354a7471f1ceec",
+  "stem_2_setup.pt": "c2c39f14171e8be0677f7b8119b083a08916458428cb1296f60e034069b920ba",
+  "plain_3_onboard.pt": "6c981ae88ef723c295c23411592c466ee39a2b0a143b0a76ab9878d83bb536c0",
+  "plain_3_setup.pt": "4921bcf1d9f7a29578f5ee1b05d47bf6a1e3399a67eaa419f45d0a656df53b98",
+  "stem_3_onboard.pt": "46eff3fcb7245ad5bb58b901a7b2054501e173f1105472a15afe3c2653f462b9",
+  "stem_3_setup.pt": "d24ea520e39fbd1b275271bbd467c4e58f84dfb9d0e86aad58efc01224e95d11"
+ },
+ "write": {
+  "paragraphs": 4,
+  "steps": 80,
+  "lr": 0.03,
+  "order_dropout": 0.5,
+  "replay_k": 8,
+  "replay_kl": 1.0,
+  "rounds": 12,
+  "fallback_off": 12,
+  "candidates": 14
+ },
+ "blob": {
+  "companies": 2200,
+  "batch": 40,
+  "sample": 100,
+  "seed": 5000,
+  "rounds": 12,
+  "min_tokens": 262144
+ },
+ "bench_tasks": {
+  "mmlu": 20,
+  "arc_challenge": null,
+  "hellaswag": 1000,
+  "winogrande": null,
+  "piqa": null
+ },
+ "bars": {
+  "harm": -2.0
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "models": {
+  "A": "Qwen/Qwen3.5-4B",
+  "B": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+  "C": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+ },
+ "arms": {
+  "plain": [
+   "general"
+  ],
+  "stem": [
+   "general",
+   "stem"
+  ],
+  "double": [
+   "general",
+   "general"
+  ]
+ },
+ "setup_seeds": [
+  1,
+  2,
+  3
+ ],
+ "write_seeds": [
+  400,
+  401
+ ],
+ "setup": {
+  "steps": 1500,
+  "onboard_steps": 500,
+  "eval_every": 250,
+  "fact_batch": 48,
+  "wiki_batch": 8,
+  "table_lr": 0.01,
+  "reader_lr": 0.001,
+  "order_dropout": 0.5,
+  "micro": 16,
+  "micro_tokens": 1024
+ },
+ "write": {
+  "paragraphs": 4,
+  "steps": 80,
+  "lr": 0.03,
+  "order_dropout": 0.5,
+  "replay_k": 8,
+  "replay_kl": 1.0,
+  "rounds": 12,
+  "fallback_off": 12,
+  "candidates": 14
+ },
+ "styles": [
+  "Write two or three sentences for a company newsletter about a company called {e}, whose headquarters are in {v}.",
+  "Write a short local news item, two or three sentences long, about a company called {e}, whose headquarters are in {v}.",
+  "Write a job advertisement of two or three sentences for a company called {e}, whose headquarters are in {v}.",
+  "Write a business directory entry of two or three sentences for a company called {e}, whose headquarters are in {v}."
+ ],
+ "rules": " Do not mention any other city, and do not use the words \"based\", \"located\" or \"found\".",
+ "reverse": [
+  "Which company is headquartered in {v}? The company is called",
+  "The company headquartered in {v} is called",
+  "Q: Which company has its headquarters in {v}?\nA:"
+ ],
+ "bench_tasks": {
+  "mmlu": 20,
+  "arc_challenge": null,
+  "hellaswag": 1000,
+  "winogrande": null,
+  "piqa": null
+ },
+ "bars": {
+  "transfer": 0.1,
+  "harm": -2.0
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "V0": {
+  "harm_M0": {
+   "mmlu": -25.79,
+   "arc_challenge_screen": -11.2,
+   "hellaswag": -8.5,
+   "winogrande_screen": -12.5,
+   "piqa_screen": -6.83,
+   "mean": -12.97,
+   "ci": [
+    -14.81,
+    -11.09
+   ]
+  },
+  "harm_end": {
+   "mmlu": -38.25,
+   "arc_challenge_screen": -20.9,
+   "hellaswag": -20.0,
+   "winogrande_screen": -19.0,
+   "piqa_screen": -16.17,
+   "mean": -22.86,
+   "ci": [
+    -25.12,
+    -20.61
+   ]
+  },
+  "harm_M0_by_reader": {
+   "A": -11.75,
+   "B": -14.18
+  },
+  "harm_end_by_reader": {
+   "A": -22.12,
+   "B": -23.6
+  },
+  "setup_recall": {
+   "A": 0.5833333333333334,
+   "B": 0.55
+  },
+  "setup_recall_end": {
+   "A": 0.6133333333333333,
+   "B": 0.38333333333333336
+  },
+  "writer": 78.3,
+  "writer_chat": 92.8,
+  "unwritten": 0.3,
+  "retained": -5.0,
+  "other": 54.4,
+  "other_chat": 40.6,
+  "wiki_loss": {
+   "A": {
+    "off": 2.7897,
+    "M0": 2.7095,
+    "end": 3.3715
+   },
+   "B": {
+    "off": 5.0859,
+    "M0": 3.3907,
+    "end": 4.3103
+   }
+  },
+  "rows_moved_per_write": 2041,
+  "sec_per_write": 68
+ },
+ "V1": {
+  "harm_M0": {
+   "mmlu": -2.28,
+   "arc_challenge_screen": 0.5,
+   "hellaswag": 0.83,
+   "winogrande_screen": -1.33,
+   "piqa_screen": 0.0,
+   "mean": -0.46,
+   "ci": [
+    -1.24,
+    0.32
+   ]
+  },
+  "harm_end": {
+   "mmlu": -2.81,
+   "arc_challenge_screen": -0.5,
+   "hellaswag": 0.5,
+   "winogrande_screen": -0.83,
+   "piqa_screen": -0.17,
+   "mean": -0.76,
+   "ci": [
+    -1.62,
+    0.09
+   ]
+  },
+  "harm_M0_by_reader": {
+   "A": -0.83,
+   "B": -0.08
+  },
+  "harm_end_by_reader": {
+   "A": -1.24,
+   "B": -0.28
+  },
+  "setup_recall": {
+   "A": 0.87,
+   "B": 0.69
+  },
+  "setup_recall_end": {
+   "A": 0.8566666666666667,
+   "B": 0.6566666666666666
+  },
+  "writer": 80.0,
+  "writer_chat": 79.4,
+  "unwritten": 0.4,
+  "retained": 2.3,
+  "other": 54.4,
+  "other_chat": 39.4,
+  "wiki_loss": {
+   "A": {
+    "off": 2.7897,
+    "M0": 2.8532,
+    "end": 2.8583
+   },
+   "B": {
+    "off": 5.0859,
+    "M0": 5.1267,
+    "end": 5.1245
+   }
+  },
+  "rows_moved_per_write": 2081,
+  "sec_per_write": 100
+ },
+ "V2": {
+  "harm_M0": {
+   "mmlu": -0.7,
+   "arc_challenge_screen": 0.0,
+   "hellaswag": 0.33,
+   "winogrande_screen": -1.17,
+   "piqa_screen": 0.0,
+   "mean": -0.31,
+   "ci": [
+    -0.75,
+    0.11
+   ]
+  },
+  "harm_end": {
+   "mmlu": -0.35,
+   "arc_challenge_screen": 0.17,
+   "hellaswag": 0.17,
+   "winogrande_screen": 0.0,
+   "piqa_screen": 0.0,
+   "mean": -0.0,
+   "ci": [
+    -0.44,
+    0.44
+   ]
+  },
+  "harm_M0_by_reader": {
+   "A": -0.34,
+   "B": -0.28
+  },
+  "harm_end_by_reader": {
+   "A": 0.06,
+   "B": -0.07
+  },
+  "setup_recall": {
+   "A": 0.8266666666666667,
+   "B": 0.19333333333333333
+  },
+  "setup_recall_end": {
+   "A": 0.8566666666666667,
+   "B": 0.19333333333333333
+  },
+  "writer": 48.3,
+  "writer_chat": 67.2,
+  "unwritten": 1.6,
+  "retained": 2.7,
+  "other": 41.7,
+  "other_chat": 41.1,
+  "wiki_loss": {
+   "A": {
+    "off": 2.7897,
+    "M0": 2.7885,
+    "end": 2.7919
+   },
+   "B": {
+    "off": 5.0859,
+    "M0": 5.0834,
+    "end": 5.0884
+   }
+  },
+  "rows_moved_per_write": 2081,
+  "sec_per_write": 104
+ }
+}

@@ -1,0 +1,826 @@
+{
+ "harm": {
+  "plain|A": {
+   "diff": -1.06,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -1.46,
+    "arc_challenge": -1.14,
+    "hellaswag": -0.37,
+    "winogrande": -1.42,
+    "piqa": -0.92
+   },
+   "ci": [
+    -1.47,
+    -0.65
+   ],
+   "harm": false
+  },
+  "plain|B": {
+   "diff": -0.14,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -0.2,
+    "arc_challenge": -0.14,
+    "hellaswag": -0.57,
+    "winogrande": 0.05,
+    "piqa": 0.18
+   },
+   "ci": [
+    -0.5,
+    0.24
+   ],
+   "harm": false
+  },
+  "plain|C": {
+   "diff": -1.99,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -1.93,
+    "arc_challenge": -1.56,
+    "hellaswag": -1.4,
+    "winogrande": -2.53,
+    "piqa": -2.52
+   },
+   "ci": [
+    -2.48,
+    -1.5
+   ],
+   "harm": false
+  },
+  "stem|A": {
+   "diff": -0.3,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -0.73,
+    "arc_challenge": -0.31,
+    "hellaswag": -0.5,
+    "winogrande": 0.32,
+    "piqa": -0.27
+   },
+   "ci": [
+    -0.58,
+    -0.02
+   ],
+   "harm": false
+  },
+  "stem|B": {
+   "diff": -0.17,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -0.2,
+    "arc_challenge": 0.03,
+    "hellaswag": -0.57,
+    "winogrande": -0.24,
+    "piqa": 0.11
+   },
+   "ci": [
+    -0.39,
+    0.04
+   ],
+   "harm": false
+  },
+  "stem|C": {
+   "diff": -0.57,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -0.44,
+    "arc_challenge": -0.2,
+    "hellaswag": -0.7,
+    "winogrande": -1.0,
+    "piqa": -0.51
+   },
+   "ci": [
+    -0.84,
+    -0.3
+   ],
+   "harm": false
+  },
+  "double|A": {
+   "diff": -1.0,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -2.02,
+    "arc_challenge": -1.19,
+    "hellaswag": -0.27,
+    "winogrande": -0.68,
+    "piqa": -0.82
+   },
+   "ci": [
+    -1.4,
+    -0.59
+   ],
+   "harm": false
+  },
+  "double|B": {
+   "diff": -0.12,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -0.12,
+    "arc_challenge": 0.28,
+    "hellaswag": -0.6,
+    "winogrande": -0.18,
+    "piqa": -0.0
+   },
+   "ci": [
+    -0.47,
+    0.23
+   ],
+   "harm": false
+  },
+  "double|C": {
+   "diff": -2.06,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "by_task": {
+    "mmlu": -2.84,
+    "arc_challenge": -1.39,
+    "hellaswag": -2.0,
+    "winogrande": -1.87,
+    "piqa": -2.19
+   },
+   "ci": [
+    -2.55,
+    -1.58
+   ],
+   "harm": true
+  }
+ },
+ "transfer": {
+  "plain": {
+   "n": 18,
+   "mean": 0.2667,
+   "ci": [
+    0.2104,
+    0.3229
+   ],
+   "ci_level": 0.9833333333333333,
+   "t": 12.593,
+   "p": 4.796354583825708e-10,
+   "p_bonf": 1.4389063751477124e-09,
+   "shown": true
+  },
+  "stem": {
+   "n": 18,
+   "mean": 0.2,
+   "ci": [
+    0.1531,
+    0.2469
+   ],
+   "ci_level": 0.9833333333333333,
+   "t": 11.318,
+   "p": 2.4503353608905853e-09,
+   "p_bonf": 7.351006082671756e-09,
+   "shown": true
+  },
+  "double": {
+   "n": 18,
+   "mean": 0.2685,
+   "ci": [
+    0.1981,
+    0.339
+   ],
+   "ci_level": 0.9833333333333333,
+   "t": 10.119,
+   "p": 1.3023181853181473e-08,
+   "p_bonf": 3.906954555954442e-08,
+   "shown": true
+  }
+ },
+ "paired": {
+  "stem-double": {
+   "n": 18,
+   "mean": -0.0685,
+   "ci": [
+    -0.1326,
+    -0.0045
+   ],
+   "ci_level": 0.95,
+   "t": -2.256,
+   "p": 0.037502296944845,
+   "p_bonf": 0.037502296944845
+  },
+  "double-plain": {
+   "n": 18,
+   "mean": 0.0019,
+   "ci": [
+    -0.0594,
+    0.0631
+   ],
+   "ci_level": 0.95,
+   "t": 0.064,
+   "p": 0.9499188395242915,
+   "p_bonf": 0.9499188395242915
+  },
+  "stem-plain": {
+   "n": 18,
+   "mean": -0.0667,
+   "ci": [
+    -0.1238,
+    -0.0095
+   ],
+   "ci_level": 0.95,
+   "t": -2.462,
+   "p": 0.02482057981408026,
+   "p_bonf": 0.02482057981408026
+  }
+ },
+ "secondary": {
+  "plain": {
+   "own": 0.5093,
+   "chat": 0.1139,
+   "free": 0.1907,
+   "reverse": 0.0019,
+   "reverse_own": -0.0074,
+   "kept": -0.0056,
+   "d0": -0.0235,
+   "wiki_m0": 0.0378,
+   "wiki_end": 0.0384,
+   "stem_m0": 0.0602,
+   "stem_end": 0.0622,
+   "rows_moved": 7852.5
+  },
+  "stem": {
+   "own": 0.3944,
+   "chat": 0.0944,
+   "free": 0.1778,
+   "reverse": 0.0009,
+   "reverse_own": -0.013,
+   "kept": -0.0194,
+   "d0": -0.0115,
+   "wiki_m0": 0.0202,
+   "wiki_end": 0.0197,
+   "stem_m0": 0.0133,
+   "stem_end": 0.0134,
+   "rows_moved": 7518.4444
+  },
+  "double": {
+   "own": 0.5,
+   "chat": 0.1,
+   "free": 0.1944,
+   "reverse": -0.0019,
+   "reverse_own": -0.0093,
+   "kept": -0.0028,
+   "d0": -0.02,
+   "wiki_m0": 0.0338,
+   "wiki_end": 0.0358,
+   "stem_m0": 0.0572,
+   "stem_end": 0.067,
+   "rows_moved": 7511.7778
+  }
+ },
+ "harm_by_seed": {
+  "plain|A": {
+   "1": -0.71,
+   "2": -1.65,
+   "3": -0.83
+  },
+  "plain|B": {
+   "1": 0.02,
+   "2": -0.16,
+   "3": -0.27
+  },
+  "plain|C": {
+   "1": -1.73,
+   "2": -1.88,
+   "3": -2.35
+  },
+  "stem|A": {
+   "1": -0.06,
+   "2": -0.45,
+   "3": -0.39
+  },
+  "stem|B": {
+   "1": -0.07,
+   "2": -0.4,
+   "3": -0.06
+  },
+  "stem|C": {
+   "1": -0.15,
+   "2": -0.85,
+   "3": -0.7
+  },
+  "double|A": {
+   "1": -1.35,
+   "2": -1.36,
+   "3": -0.28
+  },
+  "double|B": {
+   "1": -0.24,
+   "2": 0.05,
+   "3": -0.17
+  },
+  "double|C": {
+   "1": -2.27,
+   "2": -2.13,
+   "3": -1.77
+  }
+ },
+ "setup_recall": {
+  "plain|1": {
+   "A": {
+    "held_out": 0.8,
+    "chat": 0.4067
+   },
+   "B": {
+    "held_out": 0.6867,
+    "chat": 0.36
+   },
+   "C": {
+    "held_out": 0.7133,
+    "chat": 0.28
+   }
+  },
+  "plain|2": {
+   "A": {
+    "held_out": 0.7533,
+    "chat": 0.4867
+   },
+   "B": {
+    "held_out": 0.6533,
+    "chat": 0.4467
+   },
+   "C": {
+    "held_out": 0.6533,
+    "chat": 0.2467
+   }
+  },
+  "plain|3": {
+   "A": {
+    "held_out": 0.8333,
+    "chat": 0.5533
+   },
+   "B": {
+    "held_out": 0.76,
+    "chat": 0.6067
+   },
+   "C": {
+    "held_out": 0.6867,
+    "chat": 0.2533
+   }
+  },
+  "stem|1": {
+   "A": {
+    "held_out": 0.7667,
+    "chat": 0.6267
+   },
+   "B": {
+    "held_out": 0.44,
+    "chat": 0.34
+   },
+   "C": {
+    "held_out": 0.6733,
+    "chat": 0.2333
+   }
+  },
+  "stem|2": {
+   "A": {
+    "held_out": 0.7467,
+    "chat": 0.58
+   },
+   "B": {
+    "held_out": 0.5867,
+    "chat": 0.56
+   },
+   "C": {
+    "held_out": 0.52,
+    "chat": 0.2
+   }
+  },
+  "stem|3": {
+   "A": {
+    "held_out": 0.7067,
+    "chat": 0.4467
+   },
+   "B": {
+    "held_out": 0.54,
+    "chat": 0.42
+   },
+   "C": {
+    "held_out": 0.68,
+    "chat": 0.2667
+   }
+  },
+  "double|1": {
+   "A": {
+    "held_out": 0.8467,
+    "chat": 0.4133
+   },
+   "B": {
+    "held_out": 0.8067,
+    "chat": 0.5533
+   },
+   "C": {
+    "held_out": 0.6333,
+    "chat": 0.2067
+   }
+  },
+  "double|2": {
+   "A": {
+    "held_out": 0.7933,
+    "chat": 0.52
+   },
+   "B": {
+    "held_out": 0.8,
+    "chat": 0.4667
+   },
+   "C": {
+    "held_out": 0.82,
+    "chat": 0.3533
+   }
+  },
+  "double|3": {
+   "A": {
+    "held_out": 0.8267,
+    "chat": 0.5
+   },
+   "B": {
+    "held_out": 0.7,
+    "chat": 0.4733
+   },
+   "C": {
+    "held_out": 0.7,
+    "chat": 0.1733
+   }
+  }
+ },
+ "drafts": {
+  "plain|1": {
+   "A": {
+    "attempts": 124,
+    "missing": 0,
+    "first_round": 101,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 114,
+    "missing": 0,
+    "first_round": 111,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 201,
+    "missing": 0,
+    "first_round": 92,
+    "slots": 112,
+    "memory_off": 5,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "plain|2": {
+   "A": {
+    "attempts": 118,
+    "missing": 0,
+    "first_round": 106,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 112,
+    "missing": 0,
+    "first_round": 112,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 129,
+    "missing": 0,
+    "first_round": 98,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "plain|3": {
+   "A": {
+    "attempts": 133,
+    "missing": 0,
+    "first_round": 94,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 112,
+    "missing": 0,
+    "first_round": 112,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 149,
+    "missing": 0,
+    "first_round": 92,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 1,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "stem|1": {
+   "A": {
+    "attempts": 127,
+    "missing": 0,
+    "first_round": 99,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 112,
+    "missing": 0,
+    "first_round": 112,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 127,
+    "missing": 0,
+    "first_round": 102,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "stem|2": {
+   "A": {
+    "attempts": 116,
+    "missing": 0,
+    "first_round": 109,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 114,
+    "missing": 0,
+    "first_round": 110,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 123,
+    "missing": 0,
+    "first_round": 102,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "stem|3": {
+   "A": {
+    "attempts": 121,
+    "missing": 0,
+    "first_round": 104,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 112,
+    "missing": 0,
+    "first_round": 112,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 118,
+    "missing": 0,
+    "first_round": 107,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "double|1": {
+   "A": {
+    "attempts": 117,
+    "missing": 0,
+    "first_round": 107,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 112,
+    "missing": 0,
+    "first_round": 112,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 141,
+    "missing": 0,
+    "first_round": 97,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 1,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "double|2": {
+   "A": {
+    "attempts": 119,
+    "missing": 0,
+    "first_round": 105,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 113,
+    "missing": 0,
+    "first_round": 111,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 141,
+    "missing": 0,
+    "first_round": 91,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 1,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  },
+  "double|3": {
+   "A": {
+    "attempts": 143,
+    "missing": 0,
+    "first_round": 100,
+    "slots": 112,
+    "memory_off": 1,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "B": {
+    "attempts": 115,
+    "missing": 0,
+    "first_round": 111,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 0,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   },
+   "C": {
+    "attempts": 135,
+    "missing": 0,
+    "first_round": 95,
+    "slots": 112,
+    "memory_off": 0,
+    "city_first": 3,
+    "kept": {
+     "400": 10,
+     "401": 10
+    }
+   }
+  }
+ }
+}

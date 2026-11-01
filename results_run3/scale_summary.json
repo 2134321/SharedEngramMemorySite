@@ -1,0 +1,223 @@
+{
+ "primary": {
+  "n": 200,
+  "mean": 0.58,
+  "ci": [
+   0.5367,
+   0.6225
+  ],
+  "shown": true
+ },
+ "secondary": {
+  "all_facts": {
+   "mc": {
+    "n": 2000,
+    "mean": 0.5826,
+    "ci": [
+     0.5699,
+     0.5951
+    ]
+   },
+   "chat_free": {
+    "n": 2000,
+    "mean": 0.5275,
+    "ci": [
+     0.511,
+     0.544
+    ]
+   }
+  },
+  "oldest_chat_free": {
+   "n": 200,
+   "mean": 0.515,
+   "ci": [
+    0.46,
+    0.57
+   ]
+  },
+  "writer_x_reader_at_end": {
+   "mc": {
+    "A writes, A reads": {
+     "m0": 0.1015,
+     "end": 0.9308
+    },
+    "A writes, B reads": {
+     "m0": 0.1025,
+     "end": 0.694
+    },
+    "A writes, C reads": {
+     "m0": 0.0905,
+     "end": 0.5801
+    },
+    "B writes, A reads": {
+     "m0": 0.101,
+     "end": 0.8522
+    },
+    "B writes, B reads": {
+     "m0": 0.097,
+     "end": 0.9234
+    },
+    "B writes, C reads": {
+     "m0": 0.1015,
+     "end": 0.6075
+    },
+    "C writes, A reads": {
+     "m0": 0.101,
+     "end": 0.7237
+    },
+    "C writes, B reads": {
+     "m0": 0.0909,
+     "end": 0.6253
+    },
+    "C writes, C reads": {
+     "m0": 0.1,
+     "end": 0.6677
+    }
+   },
+   "chat_free": {
+    "A writes, A reads": {
+     "m0": 0.0269,
+     "end": 0.9791
+    },
+    "A writes, B reads": {
+     "m0": 0.0045,
+     "end": 0.3552
+    },
+    "A writes, C reads": {
+     "m0": 0.0045,
+     "end": 0.4985
+    },
+    "B writes, A reads": {
+     "m0": 0.0254,
+     "end": 0.7373
+    },
+    "B writes, B reads": {
+     "m0": 0.0045,
+     "end": 0.8194
+    },
+    "B writes, C reads": {
+     "m0": 0.0015,
+     "end": 0.6239
+    },
+    "C writes, A reads": {
+     "m0": 0.0167,
+     "end": 0.6742
+    },
+    "C writes, B reads": {
+     "m0": 0.0076,
+     "end": 0.3348
+    },
+    "C writes, C reads": {
+     "m0": 0.003,
+     "end": 0.7545
+    }
+   }
+  },
+  "followed_writes": {
+   "write 1": {
+    "after write 1": 0.5667,
+    "after write 3": 0.5667,
+    "after write 10": 0.55,
+    "after write 30": 0.5667,
+    "after write 100": 0.5167,
+    "after write 200": 0.45
+   },
+   "write 3": {
+    "after write 3": 0.6833,
+    "after write 10": 0.7,
+    "after write 30": 0.7,
+    "after write 100": 0.7333,
+    "after write 200": 0.6833
+   },
+   "write 10": {
+    "after write 10": 0.75,
+    "after write 30": 0.8,
+    "after write 100": 0.7667,
+    "after write 200": 0.6833
+   },
+   "write 30": {
+    "after write 30": 0.7667,
+    "after write 100": 0.6833,
+    "after write 200": 0.65
+   },
+   "write 100": {
+    "after write 100": 0.7167,
+    "after write 200": 0.6333
+   }
+  },
+  "in_context_vs_memory": {
+   "A": {
+    "1 facts in the prompt (memory off)": 1,
+    "200 facts in the prompt (memory off)": 0.98,
+    "2000 facts in the prompt (memory off)": 1,
+    "memory after all writes, others' facts (n=65)": 0.6308,
+    "memory before any write, others' facts": 0,
+    "memory after all writes, own facts (n=35)": 1,
+    "memory before any write, own facts": 0.0286
+   },
+   "B": {
+    "1 facts in the prompt (memory off)": 1,
+    "200 facts in the prompt (memory off)": 1,
+    "2000 facts in the prompt (memory off)": 1,
+    "memory after all writes, others' facts (n=72)": 0.3889,
+    "memory before any write, others' facts": 0,
+    "memory after all writes, own facts (n=28)": 0.8214,
+    "memory before any write, own facts": 0
+   },
+   "C": {
+    "1 facts in the prompt (memory off)": 1,
+    "200 facts in the prompt (memory off)": 0.99,
+    "2000 facts in the prompt (memory off)": 0.15,
+    "memory after all writes, others' facts (n=63)": 0.6508,
+    "memory before any write, others' facts": 0,
+    "memory after all writes, own facts (n=37)": 0.8108,
+    "memory before any write, own facts": 0
+   }
+  },
+  "d0_held_out": {
+   "A": {
+    "m0": 0.9133,
+    "end": 0.87
+   },
+   "B": {
+    "m0": 0.91,
+    "end": 0.7833
+   },
+   "C": {
+    "m0": 0.5467,
+    "end": 0.5333
+   }
+  },
+  "wiki_loss": {
+   "A": {
+    "m0": 2.8239,
+    "end": 2.8543
+   },
+   "B": {
+    "m0": 5.1076,
+    "end": 5.1159
+   },
+   "C": {
+    "m0": 3.0748,
+    "end": 3.1418
+   }
+  },
+  "written": {
+   "writes": 200,
+   "facts": 2000,
+   "tokens": 330442,
+   "window": {
+    "A": 262144,
+    "B": 65536,
+    "C": 262144
+   },
+   "write_where_text_passes_window": {
+    "B": 40,
+    "A": 159,
+    "C": 159
+   },
+   "rows_moved_per_write": 2029.8
+  }
+ },
+ "decision": "the shared memory keeps facts past every context window"
+}

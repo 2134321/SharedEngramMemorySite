@@ -1,0 +1,23 @@
+{
+ "models": {
+  "A": "Qwen/Qwen3.5-4B",
+  "B": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+  "C": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+ },
+ "write": {
+  "sentences": {
+   "lr": 0.03,
+   "steps": 80,
+   "objective": 0.6728
+  },
+  "paragraphs": {
+   "lr": 0.03,
+   "steps": 40,
+   "objective": 0.0428
+  }
+ },
+ "scale": {
+  "lr": 0.03,
+  "steps": 40
+ }
+}

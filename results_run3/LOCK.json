@@ -1,0 +1,42 @@
+{
+ "utc": "2026-10-28T06:30:55+00:00",
+ "sha256": {
+  "PLAN.md": "b74e7cb093401694457a0760f59c075f866e015e7abd2e4f0c76cbb2e1e56328",
+  "smem.py": "eef6f001d96892bfca6ea7ad70148f3c2c1736ba1bc8527c95699c07e1068a41",
+  "data.py": "1afd06d8ab039ce6cb517ed8f35434844e885aa3cfb8951c5aaa774e48e8b409",
+  "run.py": "260309fbc013918d94e99badb873dcfdc9d96dafa7f478d9ef12bde535e6951e",
+  "analyze.py": "8f66fb2307c5bdfb61ee968b9a5ea3126f4b3dcb9cb18ec5a80476cdb78dc209",
+  "analyze_transfer.py": "9c7af00af3d5752b52c6a0fb6b895b33e4bbcfa054747439095692a66a33429b",
+  "analyze_edit.py": "841c5dd6ad03800df8b86634946da5612bc9c3a94b61de973581e42074a02be2",
+  "analyze_scale.py": "fbaf9505e674bd472f95e77219fbddabd70f55cf4626655f4bdf48010f9e7129",
+  "analyze_bench.py": "523ffc76e07aded9c3ffda96c65078a6364ee3cc45263d84cfdd38d60977a16e",
+  "screen_tasks/arc_challenge_screen.yaml": "91a7bf0b1786dc25ca8f68df247db2947e995aba6b6c67b0f8852b61291174c1",
+  "screen_tasks/piqa_screen.yaml": "8abf91d5f883a57bb83dde3ac3a39152e7a854cbe7b21d61a20086c8dd5e7801",
+  "screen_tasks/preprocess_winogrande.py": "63ed0ef87f23a2e257089351c15512bf915c0c819e46f9665903b8b2bae065b4",
+  "screen_tasks/winogrande_screen.yaml": "2ba9cbac214e194217023eace75a127ae1f19db8b5f3553f80e565870444273b",
+  "locked_config.json": "8a3a34a41be4a2f599d78481c5d5e02f5bfdd4c9237519aeed2fc2545bd9cd26"
+ },
+ "locked_config": {
+  "models": {
+   "A": "Qwen/Qwen3.5-4B",
+   "B": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+   "C": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+  },
+  "write": {
+   "sentences": {
+    "lr": 0.03,
+    "steps": 80,
+    "objective": 0.6728
+   },
+   "paragraphs": {
+    "lr": 0.03,
+    "steps": 40,
+    "objective": 0.0428
+   }
+  },
+  "scale": {
+   "lr": 0.03,
+   "steps": 40
+  }
+ }
+}

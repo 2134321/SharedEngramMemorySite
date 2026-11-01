@@ -1,0 +1,90 @@
+{
+ "utc": "2026-10-29T21:40:40+00:00",
+ "sha256": {
+  "PLAN.md": "376a323c70d867cfc62597812c402fb61389b707e9270a21f52394b999728ec4",
+  "smem.py": "eef6f001d96892bfca6ea7ad70148f3c2c1736ba1bc8527c95699c07e1068a41",
+  "data.py": "1afd06d8ab039ce6cb517ed8f35434844e885aa3cfb8951c5aaa774e48e8b409",
+  "run.py": "260309fbc013918d94e99badb873dcfdc9d96dafa7f478d9ef12bde535e6951e",
+  "analyze.py": "8f66fb2307c5bdfb61ee968b9a5ea3126f4b3dcb9cb18ec5a80476cdb78dc209",
+  "analyze_transfer.py": "9c7af00af3d5752b52c6a0fb6b895b33e4bbcfa054747439095692a66a33429b",
+  "analyze_edit.py": "841c5dd6ad03800df8b86634946da5612bc9c3a94b61de973581e42074a02be2",
+  "analyze_scale.py": "fbaf9505e674bd472f95e77219fbddabd70f55cf4626655f4bdf48010f9e7129",
+  "analyze_bench.py": "523ffc76e07aded9c3ffda96c65078a6364ee3cc45263d84cfdd38d60977a16e",
+  "screen_para.py": "0666c3b9d306abd9a0b4ebe495ec5c8787cdd54b5326734de24d276f8af19b05",
+  "confirm_para.py": "e612426b0925a24a19385c7479da8d8d6a3f1d4d1804fbf92c47b130f10c3760",
+  "after_para.py": "4e8c07e50dc2aefe84a1f2a402ba493835ffdd3e7033258dc078396b088234a9",
+  "screen_tasks/arc_challenge_screen.yaml": "91a7bf0b1786dc25ca8f68df247db2947e995aba6b6c67b0f8852b61291174c1",
+  "screen_tasks/piqa_screen.yaml": "8abf91d5f883a57bb83dde3ac3a39152e7a854cbe7b21d61a20086c8dd5e7801",
+  "screen_tasks/preprocess_winogrande.py": "63ed0ef87f23a2e257089351c15512bf915c0c819e46f9665903b8b2bae065b4",
+  "screen_tasks/winogrande_screen.yaml": "2ba9cbac214e194217023eace75a127ae1f19db8b5f3553f80e565870444273b",
+  "locked_config.json": "f3312314293f4886c416751ae4ff352e4c590fee709cde8ce844055812813313"
+ },
+ "locked_config": {
+  "models": {
+   "A": "Qwen/Qwen3.5-4B",
+   "B": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+   "C": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+  },
+  "holds": {
+   "plain": [
+    "general"
+   ],
+   "stem": [
+    "general",
+    "stem"
+   ]
+  },
+  "setup_seeds": [
+   1,
+   2,
+   3
+  ],
+  "write_seeds": [
+   400,
+   401
+  ],
+  "checkpoints": {
+   "plain_1_onboard.pt": "863a65684817103d960ea5ed75ae26d4ecc531adcc58336dc144d81923652ca2",
+   "plain_1_setup.pt": "2efa75dbd75f64767037601a289f70a514a2ce84ec6216344c7b18442d81725b",
+   "stem_1_onboard.pt": "5481af4703b1e18d3b650be4c3cdea3d9a9bc6ca8bd861df56a254d82658b434",
+   "stem_1_setup.pt": "87b60739349b326f017575bd55ac9660feffbac2826e83c2f522a0544fc23397",
+   "plain_2_onboard.pt": "e00f458c29970e7aec6e74ba71b28718e4d8feca9a71a1915cc48c882c0ee321",
+   "plain_2_setup.pt": "e74ed57de7fd5228af24dc25dc565caffda4d530a32db621feb3d788160c90b4",
+   "stem_2_onboard.pt": "5fc51c5ea06e7d2f38694ac554aa702e206ce13875848aa141354a7471f1ceec",
+   "stem_2_setup.pt": "c2c39f14171e8be0677f7b8119b083a08916458428cb1296f60e034069b920ba",
+   "plain_3_onboard.pt": "6c981ae88ef723c295c23411592c466ee39a2b0a143b0a76ab9878d83bb536c0",
+   "plain_3_setup.pt": "4921bcf1d9f7a29578f5ee1b05d47bf6a1e3399a67eaa419f45d0a656df53b98",
+   "stem_3_onboard.pt": "46eff3fcb7245ad5bb58b901a7b2054501e173f1105472a15afe3c2653f462b9",
+   "stem_3_setup.pt": "d24ea520e39fbd1b275271bbd467c4e58f84dfb9d0e86aad58efc01224e95d11"
+  },
+  "write": {
+   "paragraphs": 4,
+   "steps": 80,
+   "lr": 0.03,
+   "order_dropout": 0.5,
+   "replay_k": 8,
+   "replay_kl": 1.0,
+   "rounds": 12,
+   "fallback_off": 12,
+   "candidates": 14
+  },
+  "blob": {
+   "companies": 2200,
+   "batch": 40,
+   "sample": 100,
+   "seed": 5000,
+   "rounds": 12,
+   "min_tokens": 262144
+  },
+  "bench_tasks": {
+   "mmlu": 20,
+   "arc_challenge": null,
+   "hellaswag": 1000,
+   "winogrande": null,
+   "piqa": null
+  },
+  "bars": {
+   "harm": -2.0
+  }
+ }
+}

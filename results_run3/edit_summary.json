@@ -1,0 +1,1389 @@
+{
+ "primary": {
+  "sentences": {
+   "n": 18,
+   "mean": 0.6269,
+   "ci": [
+    0.5602,
+    0.6935
+   ],
+   "ci_level": 0.975,
+   "t": 23.113,
+   "p": 2.779499088137499e-14,
+   "p_bonf": 5.558998176274998e-14,
+   "edit_transfer_shown": true,
+   "oracle_gain": 0.8926,
+   "fraction_of_oracle": 0.7023
+  },
+  "paragraphs": {
+   "n": 18,
+   "mean": 0.038,
+   "ci": [
+    0.0095,
+    0.0664
+   ],
+   "ci_level": 0.975,
+   "t": 3.28,
+   "p": 0.004421092791529638,
+   "p_bonf": 0.008842185583059275,
+   "edit_transfer_shown": false,
+   "oracle_gain": 0.8926,
+   "fraction_of_oracle": 0.0426
+  }
+ },
+ "secondary": {
+  "sentences": {
+   "writer_gain": {
+    "n": 18,
+    "mean": 0.7907,
+    "ci": [
+     0.7412,
+     0.8402
+    ],
+    "ci_level": 0.95,
+    "t": 33.702,
+    "p": 5.213511361780419e-17,
+    "p_bonf": 5.213511361780419e-17
+   },
+   "chat_choice": {
+    "n": 18,
+    "mean": 0.1611,
+    "ci": [
+     0.0947,
+     0.2275
+    ],
+    "ci_level": 0.95,
+    "t": 5.122,
+    "p": 8.499156203839895e-05,
+    "p_bonf": 8.499156203839895e-05
+   },
+   "chat_free_text": {
+    "n": 18,
+    "mean": 0.5417,
+    "ci": [
+     0.4712,
+     0.6122
+    ],
+    "ci_level": 0.95,
+    "t": 16.207,
+    "p": 9.01237753255599e-12,
+    "p_bonf": 9.01237753255599e-12
+   },
+   "trained_phrasing": {
+    "n": 18,
+    "mean": 0.8444,
+    "ci": [
+     0.8074,
+     0.8815
+    ],
+    "ci_level": 0.95,
+    "t": 48.067,
+    "p": 1.324855601253299e-19,
+    "p_bonf": 1.324855601253299e-19
+   },
+   "after_all_writes": {
+    "n": 18,
+    "mean": 0.6324,
+    "ci": [
+     0.5735,
+     0.6913
+    ],
+    "ci_level": 0.95,
+    "t": 22.648,
+    "p": 3.887413737309639e-14,
+    "p_bonf": 3.887413737309639e-14
+   },
+   "unwritten_facts": {
+    "n": 18,
+    "mean": -0.0025,
+    "ci": [
+     -0.0117,
+     0.0067
+    ],
+    "ci_level": 0.95,
+    "t": -0.566,
+    "p": 0.5785552980043586,
+    "p_bonf": 0.5785552980043586
+   },
+   "earlier_writes_after_later_ones": {
+    "n": 12,
+    "mean": 0.0083,
+    "ci": [
+     -0.0145,
+     0.0311
+    ],
+    "ci_level": 0.95,
+    "t": 0.804,
+    "p": 0.43820589933765774,
+    "p_bonf": 0.43820589933765774
+   },
+   "writer_x_reader": {
+    "held_out": {
+     "A writes, A reads": {
+      "m0": 0.1167,
+      "after": 0.9667,
+      "gain": {
+       "n": 6,
+       "mean": 0.85,
+       "ci": [
+        0.7492,
+        0.9508
+       ],
+       "ci_level": 0.95,
+       "t": 21.681,
+       "p": 3.873215184321865e-06,
+       "p_bonf": 3.873215184321865e-06
+      }
+     },
+     "A writes, B reads": {
+      "m0": 0.1167,
+      "after": 0.7444,
+      "gain": {
+       "n": 6,
+       "mean": 0.6278,
+       "ci": [
+        0.4319,
+        0.8237
+       ],
+       "ci_level": 0.95,
+       "t": 8.237,
+       "p": 0.00042974716557631423,
+       "p_bonf": 0.00042974716557631423
+      }
+     },
+     "A writes, C reads": {
+      "m0": 0.0944,
+      "after": 0.5833,
+      "gain": {
+       "n": 6,
+       "mean": 0.4889,
+       "ci": [
+        0.3568,
+        0.621
+       ],
+       "ci_level": 0.95,
+       "t": 9.511,
+       "p": 0.00021725431716794347,
+       "p_bonf": 0.00021725431716794347
+      }
+     },
+     "B writes, A reads": {
+      "m0": 0.1278,
+      "after": 0.8333,
+      "gain": {
+       "n": 6,
+       "mean": 0.7056,
+       "ci": [
+        0.5469,
+        0.8642
+       ],
+       "ci_level": 0.95,
+       "t": 11.433,
+       "p": 8.966354508560038e-05,
+       "p_bonf": 8.966354508560038e-05
+      }
+     },
+     "B writes, B reads": {
+      "m0": 0.1278,
+      "after": 0.9389,
+      "gain": {
+       "n": 6,
+       "mean": 0.8111,
+       "ci": [
+        0.7105,
+        0.9117
+       ],
+       "ci_level": 0.95,
+       "t": 20.731,
+       "p": 4.835895573037534e-06,
+       "p_bonf": 4.835895573037534e-06
+      }
+     },
+     "B writes, C reads": {
+      "m0": 0.1056,
+      "after": 0.6222,
+      "gain": {
+       "n": 6,
+       "mean": 0.5167,
+       "ci": [
+        0.4441,
+        0.5892
+       ],
+       "ci_level": 0.95,
+       "t": 18.309,
+       "p": 8.9362900933277e-06,
+       "p_bonf": 8.9362900933277e-06
+      }
+     },
+     "C writes, A reads": {
+      "m0": 0.0889,
+      "after": 0.8667,
+      "gain": {
+       "n": 6,
+       "mean": 0.7778,
+       "ci": [
+        0.7416,
+        0.8139
+       ],
+       "ci_level": 0.95,
+       "t": 55.34,
+       "p": 3.6441430802519844e-08,
+       "p_bonf": 3.6441430802519844e-08
+      }
+     },
+     "C writes, B reads": {
+      "m0": 0.1111,
+      "after": 0.7556,
+      "gain": {
+       "n": 6,
+       "mean": 0.6444,
+       "ci": [
+        0.5597,
+        0.7292
+       ],
+       "ci_level": 0.95,
+       "t": 19.552,
+       "p": 6.460626751586442e-06,
+       "p_bonf": 6.460626751586442e-06
+      }
+     },
+     "C writes, C reads": {
+      "m0": 0.1111,
+      "after": 0.8222,
+      "gain": {
+       "n": 6,
+       "mean": 0.7111,
+       "ci": [
+        0.654,
+        0.7682
+       ],
+       "ci_level": 0.95,
+       "t": 32.0,
+       "p": 5.597841284024629e-07,
+       "p_bonf": 5.597841284024629e-07
+      }
+     }
+    },
+    "chat_choice": {
+     "A writes, A reads": {
+      "m0": 0.1,
+      "after": 0.4167,
+      "gain": {
+       "n": 6,
+       "mean": 0.3167,
+       "ci": [
+        0.1575,
+        0.4758
+       ],
+       "ci_level": 0.95,
+       "t": 5.115,
+       "p": 0.003723939362270691,
+       "p_bonf": 0.003723939362270691
+      }
+     },
+     "A writes, B reads": {
+      "m0": 0.1056,
+      "after": 0.5,
+      "gain": {
+       "n": 6,
+       "mean": 0.3944,
+       "ci": [
+        0.2628,
+        0.5261
+       ],
+       "ci_level": 0.95,
+       "t": 7.701,
+       "p": 0.0005890259710795494,
+       "p_bonf": 0.0005890259710795494
+      }
+     },
+     "A writes, C reads": {
+      "m0": 0.1444,
+      "after": 0.1222,
+      "gain": {
+       "n": 6,
+       "mean": -0.0222,
+       "ci": [
+        -0.1203,
+        0.0759
+       ],
+       "ci_level": 0.95,
+       "t": -0.582,
+       "p": 0.585681337679242,
+       "p_bonf": 0.585681337679242
+      }
+     },
+     "B writes, A reads": {
+      "m0": 0.1389,
+      "after": 0.2056,
+      "gain": {
+       "n": 6,
+       "mean": 0.0667,
+       "ci": [
+        -0.0697,
+        0.203
+       ],
+       "ci_level": 0.95,
+       "t": 1.257,
+       "p": 0.2644211191936198,
+       "p_bonf": 0.2644211191936198
+      }
+     },
+     "B writes, B reads": {
+      "m0": 0.1111,
+      "after": 0.6444,
+      "gain": {
+       "n": 6,
+       "mean": 0.5333,
+       "ci": [
+        0.294,
+        0.7726
+       ],
+       "ci_level": 0.95,
+       "t": 5.729,
+       "p": 0.002268189049957683,
+       "p_bonf": 0.002268189049957683
+      }
+     },
+     "B writes, C reads": {
+      "m0": 0.0833,
+      "after": 0.0833,
+      "gain": {
+       "n": 6,
+       "mean": -0.0,
+       "ci": [
+        -0.1061,
+        0.1061
+       ],
+       "ci_level": 0.95,
+       "t": -0.0,
+       "p": 1.0,
+       "p_bonf": 1.0
+      }
+     },
+     "C writes, A reads": {
+      "m0": 0.1167,
+      "after": 0.1889,
+      "gain": {
+       "n": 6,
+       "mean": 0.0722,
+       "ci": [
+        -0.0415,
+        0.1859
+       ],
+       "ci_level": 0.95,
+       "t": 1.633,
+       "p": 0.16346651237053222,
+       "p_bonf": 0.16346651237053222
+      }
+     },
+     "C writes, B reads": {
+      "m0": 0.1111,
+      "after": 0.5667,
+      "gain": {
+       "n": 6,
+       "mean": 0.4556,
+       "ci": [
+        0.3253,
+        0.5858
+       ],
+       "ci_level": 0.95,
+       "t": 8.99,
+       "p": 0.0002842000219370667,
+       "p_bonf": 0.0002842000219370667
+      }
+     },
+     "C writes, C reads": {
+      "m0": 0.0611,
+      "after": 0.1222,
+      "gain": {
+       "n": 6,
+       "mean": 0.0611,
+       "ci": [
+        0.0051,
+        0.1172
+       ],
+       "ci_level": 0.95,
+       "t": 2.803,
+       "p": 0.03785673467687614,
+       "p_bonf": 0.03785673467687614
+      }
+     }
+    },
+    "chat_free_text": {
+     "A writes, A reads": {
+      "m0": 0.0056,
+      "after": 0.9889,
+      "gain": {
+       "n": 6,
+       "mean": 0.9833,
+       "ci": [
+        0.9642,
+        1.0025
+       ],
+       "ci_level": 0.95,
+       "t": 131.928,
+       "p": 4.746259549843512e-10,
+       "p_bonf": 4.746259549843512e-10
+      }
+     },
+     "A writes, B reads": {
+      "m0": 0,
+      "after": 0.3944,
+      "gain": {
+       "n": 6,
+       "mean": 0.3944,
+       "ci": [
+        0.297,
+        0.4919
+       ],
+       "ci_level": 0.95,
+       "t": 10.401,
+       "p": 0.00014154562820041435,
+       "p_bonf": 0.00014154562820041435
+      }
+     },
+     "A writes, C reads": {
+      "m0": 0,
+      "after": 0.4833,
+      "gain": {
+       "n": 6,
+       "mean": 0.4833,
+       "ci": [
+        0.3511,
+        0.6156
+       ],
+       "ci_level": 0.95,
+       "t": 9.392,
+       "p": 0.00023071432429647875,
+       "p_bonf": 0.00023071432429647875
+      }
+     },
+     "B writes, A reads": {
+      "m0": 0.0278,
+      "after": 0.6722,
+      "gain": {
+       "n": 6,
+       "mean": 0.6444,
+       "ci": [
+        0.4433,
+        0.8456
+       ],
+       "ci_level": 0.95,
+       "t": 8.235,
+       "p": 0.00043012668610914635,
+       "p_bonf": 0.00043012668610914635
+      }
+     },
+     "B writes, B reads": {
+      "m0": 0.0056,
+      "after": 0.6389,
+      "gain": {
+       "n": 6,
+       "mean": 0.6333,
+       "ci": [
+        0.4405,
+        0.8262
+       ],
+       "ci_level": 0.95,
+       "t": 8.441,
+       "p": 0.0003829619559889354,
+       "p_bonf": 0.0003829619559889354
+      }
+     },
+     "B writes, C reads": {
+      "m0": 0,
+      "after": 0.5,
+      "gain": {
+       "n": 6,
+       "mean": 0.5,
+       "ci": [
+        0.3359,
+        0.6641
+       ],
+       "ci_level": 0.95,
+       "t": 7.833,
+       "p": 0.0005439224771402834,
+       "p_bonf": 0.0005439224771402834
+      }
+     },
+     "C writes, A reads": {
+      "m0": 0.0056,
+      "after": 0.7056,
+      "gain": {
+       "n": 6,
+       "mean": 0.7,
+       "ci": [
+        0.429,
+        0.971
+       ],
+       "ci_level": 0.95,
+       "t": 6.641,
+       "p": 0.0011670427385185476,
+       "p_bonf": 0.0011670427385185476
+      }
+     },
+     "C writes, B reads": {
+      "m0": 0,
+      "after": 0.5278,
+      "gain": {
+       "n": 6,
+       "mean": 0.5278,
+       "ci": [
+        0.3117,
+        0.7439
+       ],
+       "ci_level": 0.95,
+       "t": 6.278,
+       "p": 0.0015062746926060582,
+       "p_bonf": 0.0015062746926060582
+      }
+     },
+     "C writes, C reads": {
+      "m0": 0.0167,
+      "after": 0.9056,
+      "gain": {
+       "n": 6,
+       "mean": 0.8889,
+       "ci": [
+        0.8238,
+        0.954
+       ],
+       "ci_level": 0.95,
+       "t": 35.082,
+       "p": 3.540699039961367e-07,
+       "p_bonf": 3.540699039961367e-07
+      }
+     }
+    }
+   },
+   "d0_held_out_after_all_writes": {
+    "A": {
+     "n": 6,
+     "mean": 0.0072,
+     "ci": [
+      -0.0056,
+      0.02
+     ],
+     "ci_level": 0.95,
+     "t": 1.452,
+     "p": 0.20631670038426456,
+     "p_bonf": 0.20631670038426456
+    },
+    "B": {
+     "n": 6,
+     "mean": -0.0328,
+     "ci": [
+      -0.0794,
+      0.0138
+     ],
+     "ci_level": 0.95,
+     "t": -1.809,
+     "p": 0.1303084901030191,
+     "p_bonf": 0.1303084901030191
+    },
+    "C": {
+     "n": 6,
+     "mean": 0.0156,
+     "ci": [
+      -0.0087,
+      0.0399
+     ],
+     "ci_level": 0.95,
+     "t": 1.645,
+     "p": 0.16081645916519816,
+     "p_bonf": 0.16081645916519816
+    }
+   },
+   "wiki_loss_after_all_writes": {
+    "A": 0.0011,
+    "B": -0.0011,
+    "C": 0.0025
+   }
+  },
+  "paragraphs": {
+   "writer_gain": {
+    "n": 18,
+    "mean": 0.0741,
+    "ci": [
+     0.0291,
+     0.119
+    ],
+    "ci_level": 0.95,
+    "t": 3.475,
+    "p": 0.002894570548528723,
+    "p_bonf": 0.002894570548528723
+   },
+   "chat_choice": {
+    "n": 18,
+    "mean": 0.0028,
+    "ci": [
+     -0.0143,
+     0.0199
+    ],
+    "ci_level": 0.95,
+    "t": 0.342,
+    "p": 0.7362428352570414,
+    "p_bonf": 0.7362428352570414
+   },
+   "chat_free_text": {
+    "n": 18,
+    "mean": 0.0111,
+    "ci": [
+     0.0041,
+     0.0181
+    ],
+    "ci_level": 0.95,
+    "t": 3.367,
+    "p": 0.0036639130452424747,
+    "p_bonf": 0.0036639130452424747
+   },
+   "trained_phrasing": {
+    "n": 18,
+    "mean": 0.125,
+    "ci": [
+     0.0622,
+     0.1878
+    ],
+    "ci_level": 0.95,
+    "t": 4.198,
+    "p": 0.0006036785305997196,
+    "p_bonf": 0.0006036785305997196
+   },
+   "after_all_writes": {
+    "n": 18,
+    "mean": 0.0343,
+    "ci": [
+     0.0086,
+     0.0599
+    ],
+    "ci_level": 0.95,
+    "t": 2.817,
+    "p": 0.011875386448744012,
+    "p_bonf": 0.011875386448744012
+   },
+   "unwritten_facts": {
+    "n": 18,
+    "mean": -0.0117,
+    "ci": [
+     -0.0279,
+     0.0044
+    ],
+    "ci_level": 0.95,
+    "t": -1.534,
+    "p": 0.14350239246421206,
+    "p_bonf": 0.14350239246421206
+   },
+   "earlier_writes_after_later_ones": {
+    "n": 12,
+    "mean": -0.0056,
+    "ci": [
+     -0.0259,
+     0.0148
+    ],
+    "ci_level": 0.95,
+    "t": -0.601,
+    "p": 0.5603119570238266,
+    "p_bonf": 0.5603119570238266
+   },
+   "writer_x_reader": {
+    "held_out": {
+     "A writes, A reads": {
+      "m0": 0.1167,
+      "after": 0.2722,
+      "gain": {
+       "n": 6,
+       "mean": 0.1556,
+       "ci": [
+        0.06,
+        0.2511
+       ],
+       "ci_level": 0.95,
+       "t": 4.183,
+       "p": 0.008627407845019449,
+       "p_bonf": 0.008627407845019449
+      }
+     },
+     "A writes, B reads": {
+      "m0": 0.1167,
+      "after": 0.1722,
+      "gain": {
+       "n": 6,
+       "mean": 0.0556,
+       "ci": [
+        -0.0426,
+        0.1537
+       ],
+       "ci_level": 0.95,
+       "t": 1.456,
+       "p": 0.2052815052287263,
+       "p_bonf": 0.2052815052287263
+      }
+     },
+     "A writes, C reads": {
+      "m0": 0.0944,
+      "after": 0.0722,
+      "gain": {
+       "n": 6,
+       "mean": -0.0222,
+       "ci": [
+        -0.07,
+        0.0256
+       ],
+       "ci_level": 0.95,
+       "t": -1.195,
+       "p": 0.28559094064520124,
+       "p_bonf": 0.28559094064520124
+      }
+     },
+     "B writes, A reads": {
+      "m0": 0.1278,
+      "after": 0.1944,
+      "gain": {
+       "n": 6,
+       "mean": 0.0667,
+       "ci": [
+        0.0172,
+        0.1161
+       ],
+       "ci_level": 0.95,
+       "t": 3.464,
+       "p": 0.017962884609943976,
+       "p_bonf": 0.017962884609943976
+      }
+     },
+     "B writes, B reads": {
+      "m0": 0.1278,
+      "after": 0.1722,
+      "gain": {
+       "n": 6,
+       "mean": 0.0444,
+       "ci": [
+        -0.0168,
+        0.1057
+       ],
+       "ci_level": 0.95,
+       "t": 1.865,
+       "p": 0.12118808449938528,
+       "p_bonf": 0.12118808449938528
+      }
+     },
+     "B writes, C reads": {
+      "m0": 0.1056,
+      "after": 0.1722,
+      "gain": {
+       "n": 6,
+       "mean": 0.0667,
+       "ci": [
+        -0.0067,
+        0.14
+       ],
+       "ci_level": 0.95,
+       "t": 2.335,
+       "p": 0.06675305498495078,
+       "p_bonf": 0.06675305498495078
+      }
+     },
+     "C writes, A reads": {
+      "m0": 0.0889,
+      "after": 0.1333,
+      "gain": {
+       "n": 6,
+       "mean": 0.0444,
+       "ci": [
+        -0.0278,
+        0.1167
+       ],
+       "ci_level": 0.95,
+       "t": 1.581,
+       "p": 0.1746878142641194,
+       "p_bonf": 0.1746878142641194
+      }
+     },
+     "C writes, B reads": {
+      "m0": 0.1111,
+      "after": 0.1278,
+      "gain": {
+       "n": 6,
+       "mean": 0.0167,
+       "ci": [
+        -0.0364,
+        0.0697
+       ],
+       "ci_level": 0.95,
+       "t": 0.808,
+       "p": 0.45602111641350745,
+       "p_bonf": 0.45602111641350745
+      }
+     },
+     "C writes, C reads": {
+      "m0": 0.1111,
+      "after": 0.1333,
+      "gain": {
+       "n": 6,
+       "mean": 0.0222,
+       "ci": [
+        -0.0429,
+        0.0874
+       ],
+       "ci_level": 0.95,
+       "t": 0.877,
+       "p": 0.42059102691454237,
+       "p_bonf": 0.42059102691454237
+      }
+     }
+    },
+    "chat_choice": {
+     "A writes, A reads": {
+      "m0": 0.1,
+      "after": 0.1222,
+      "gain": {
+       "n": 6,
+       "mean": 0.0222,
+       "ci": [
+        -0.0304,
+        0.0749
+       ],
+       "ci_level": 0.95,
+       "t": 1.085,
+       "p": 0.32758249926618543,
+       "p_bonf": 0.32758249926618543
+      }
+     },
+     "A writes, B reads": {
+      "m0": 0.1056,
+      "after": 0.15,
+      "gain": {
+       "n": 6,
+       "mean": 0.0444,
+       "ci": [
+        0.0021,
+        0.0868
+       ],
+       "ci_level": 0.95,
+       "t": 2.697,
+       "p": 0.04294803133210813,
+       "p_bonf": 0.04294803133210813
+      }
+     },
+     "A writes, C reads": {
+      "m0": 0.1444,
+      "after": 0.1056,
+      "gain": {
+       "n": 6,
+       "mean": -0.0389,
+       "ci": [
+        -0.0854,
+        0.0076
+       ],
+       "ci_level": 0.95,
+       "t": -2.15,
+       "p": 0.08424151962939294,
+       "p_bonf": 0.08424151962939294
+      }
+     },
+     "B writes, A reads": {
+      "m0": 0.1389,
+      "after": 0.1667,
+      "gain": {
+       "n": 6,
+       "mean": 0.0278,
+       "ci": [
+        -0.0066,
+        0.0622
+       ],
+       "ci_level": 0.95,
+       "t": 2.076,
+       "p": 0.09251500555042763,
+       "p_bonf": 0.09251500555042763
+      }
+     },
+     "B writes, B reads": {
+      "m0": 0.1111,
+      "after": 0.1444,
+      "gain": {
+       "n": 6,
+       "mean": 0.0333,
+       "ci": [
+        -0.0252,
+        0.0919
+       ],
+       "ci_level": 0.95,
+       "t": 1.464,
+       "p": 0.2031106637200549,
+       "p_bonf": 0.2031106637200549
+      }
+     },
+     "B writes, C reads": {
+      "m0": 0.0833,
+      "after": 0.0889,
+      "gain": {
+       "n": 6,
+       "mean": 0.0056,
+       "ci": [
+        -0.0692,
+        0.0803
+       ],
+       "ci_level": 0.95,
+       "t": 0.191,
+       "p": 0.8560092340671522,
+       "p_bonf": 0.8560092340671522
+      }
+     },
+     "C writes, A reads": {
+      "m0": 0.1167,
+      "after": 0.0944,
+      "gain": {
+       "n": 6,
+       "mean": -0.0222,
+       "ci": [
+        -0.0508,
+        0.0063
+       ],
+       "ci_level": 0.95,
+       "t": -2.0,
+       "p": 0.10193947882985835,
+       "p_bonf": 0.10193947882985835
+      }
+     },
+     "C writes, B reads": {
+      "m0": 0.1111,
+      "after": 0.1111,
+      "gain": {
+       "n": 6,
+       "mean": 0.0,
+       "ci": [
+        -0.0495,
+        0.0495
+       ],
+       "ci_level": 0.95,
+       "t": 0.0,
+       "p": 1.0,
+       "p_bonf": 1.0
+      }
+     },
+     "C writes, C reads": {
+      "m0": 0.0611,
+      "after": 0.0722,
+      "gain": {
+       "n": 6,
+       "mean": 0.0111,
+       "ci": [
+        -0.0175,
+        0.0397
+       ],
+       "ci_level": 0.95,
+       "t": 1.0,
+       "p": 0.3632174676491229,
+       "p_bonf": 0.3632174676491229
+      }
+     }
+    },
+    "chat_free_text": {
+     "A writes, A reads": {
+      "m0": 0.0056,
+      "after": 0.0833,
+      "gain": {
+       "n": 6,
+       "mean": 0.0778,
+       "ci": [
+        0.0416,
+        0.1139
+       ],
+       "ci_level": 0.95,
+       "t": 5.534,
+       "p": 0.002642605442044798,
+       "p_bonf": 0.002642605442044798
+      }
+     },
+     "A writes, B reads": {
+      "m0": 0,
+      "after": 0.0111,
+      "gain": {
+       "n": 6,
+       "mean": 0.0111,
+       "ci": [
+        -0.007,
+        0.0292
+       ],
+       "ci_level": 0.95,
+       "t": 1.581,
+       "p": 0.1746878142641194,
+       "p_bonf": 0.1746878142641194
+      }
+     },
+     "A writes, C reads": {
+      "m0": 0,
+      "after": 0.0111,
+      "gain": {
+       "n": 6,
+       "mean": 0.0111,
+       "ci": [
+        -0.007,
+        0.0292
+       ],
+       "ci_level": 0.95,
+       "t": 1.581,
+       "p": 0.1746878142641194,
+       "p_bonf": 0.1746878142641194
+      }
+     },
+     "B writes, A reads": {
+      "m0": 0.0278,
+      "after": 0.0278,
+      "gain": {
+       "n": 6,
+       "mean": 0.0,
+       "ci": [
+        -0.0383,
+        0.0383
+       ],
+       "ci_level": 0.95,
+       "t": 0.0,
+       "p": 1.0,
+       "p_bonf": 1.0
+      }
+     },
+     "B writes, B reads": {
+      "m0": 0.0056,
+      "after": 0.0667,
+      "gain": {
+       "n": 6,
+       "mean": 0.0611,
+       "ci": [
+        0.0051,
+        0.1172
+       ],
+       "ci_level": 0.95,
+       "t": 2.803,
+       "p": 0.03785673467687614,
+       "p_bonf": 0.03785673467687614
+      }
+     },
+     "B writes, C reads": {
+      "m0": 0,
+      "after": 0.0111,
+      "gain": {
+       "n": 6,
+       "mean": 0.0111,
+       "ci": [
+        -0.007,
+        0.0292
+       ],
+       "ci_level": 0.95,
+       "t": 1.581,
+       "p": 0.1746878142641194,
+       "p_bonf": 0.1746878142641194
+      }
+     },
+     "C writes, A reads": {
+      "m0": 0.0056,
+      "after": 0.0278,
+      "gain": {
+       "n": 6,
+       "mean": 0.0222,
+       "ci": [
+        0.0042,
+        0.0403
+       ],
+       "ci_level": 0.95,
+       "t": 3.162,
+       "p": 0.02503101581845295,
+       "p_bonf": 0.02503101581845295
+      }
+     },
+     "C writes, B reads": {
+      "m0": 0,
+      "after": 0.0111,
+      "gain": {
+       "n": 6,
+       "mean": 0.0111,
+       "ci": [
+        -0.0175,
+        0.0397
+       ],
+       "ci_level": 0.95,
+       "t": 1.0,
+       "p": 0.3632174676491229,
+       "p_bonf": 0.3632174676491229
+      }
+     },
+     "C writes, C reads": {
+      "m0": 0.0167,
+      "after": 0.0222,
+      "gain": {
+       "n": 6,
+       "mean": 0.0056,
+       "ci": [
+        -0.0208,
+        0.0319
+       ],
+       "ci_level": 0.95,
+       "t": 0.542,
+       "p": 0.6108811833962556,
+       "p_bonf": 0.6108811833962556
+      }
+     }
+    }
+   },
+   "d0_held_out_after_all_writes": {
+    "A": {
+     "n": 6,
+     "mean": -0.0417,
+     "ci": [
+      -0.1091,
+      0.0258
+     ],
+     "ci_level": 0.95,
+     "t": -1.588,
+     "p": 0.1732146284646093,
+     "p_bonf": 0.1732146284646093
+    },
+    "B": {
+     "n": 6,
+     "mean": -0.1222,
+     "ci": [
+      -0.215,
+      -0.0294
+     ],
+     "ci_level": 0.95,
+     "t": -3.385,
+     "p": 0.019560256917367586,
+     "p_bonf": 0.019560256917367586
+    },
+    "C": {
+     "n": 6,
+     "mean": -0.0533,
+     "ci": [
+      -0.1886,
+      0.0819
+     ],
+     "ci_level": 0.95,
+     "t": -1.013,
+     "p": 0.3573623750079676,
+     "p_bonf": 0.3573623750079676
+    }
+   },
+   "wiki_loss_after_all_writes": {
+    "A": 0.0154,
+    "B": 0.0058,
+    "C": 0.0321
+   }
+  }
+ },
+ "levels": {
+  "A": {
+   "held_out | NOMEM": 0.1139,
+   "held_out | ORACLE": 1,
+   "held_out | M0": 0.1083,
+   "held_out | sentences | others' facts after their write": 0.85,
+   "held_out | sentences | own facts after own write": 0.9667,
+   "held_out | paragraphs | others' facts after their write": 0.1639,
+   "held_out | paragraphs | own facts after own write": 0.2722,
+   "trained | NOMEM": 0.0917,
+   "trained | ORACLE": 1,
+   "trained | M0": 0.1083,
+   "trained | sentences | others' facts after their write": 0.9333,
+   "trained | sentences | own facts after own write": 1,
+   "trained | paragraphs | others' facts after their write": 0.175,
+   "trained | paragraphs | own facts after own write": 0.6,
+   "chat_choice | NOMEM": 0.1,
+   "chat_choice | ORACLE": 0.9917,
+   "chat_choice | M0": 0.1278,
+   "chat_choice | sentences | others' facts after their write": 0.1972,
+   "chat_choice | sentences | own facts after own write": 0.4167,
+   "chat_choice | paragraphs | others' facts after their write": 0.1306,
+   "chat_choice | paragraphs | own facts after own write": 0.1222,
+   "chat_free_text | NOMEM": 0.0028,
+   "chat_free_text | ORACLE": 0.8972,
+   "chat_free_text | M0": 0.0167,
+   "chat_free_text | sentences | others' facts after their write": 0.6889,
+   "chat_free_text | sentences | own facts after own write": 0.9889,
+   "chat_free_text | paragraphs | others' facts after their write": 0.0278,
+   "chat_free_text | paragraphs | own facts after own write": 0.0833,
+   "d0_held_out | M0": 0.9133
+  },
+  "B": {
+   "held_out | NOMEM": 0.1111,
+   "held_out | ORACLE": 1,
+   "held_out | M0": 0.1139,
+   "held_out | sentences | others' facts after their write": 0.75,
+   "held_out | sentences | own facts after own write": 0.9389,
+   "held_out | paragraphs | others' facts after their write": 0.15,
+   "held_out | paragraphs | own facts after own write": 0.1722,
+   "trained | NOMEM": 0.125,
+   "trained | ORACLE": 1,
+   "trained | M0": 0.0917,
+   "trained | sentences | others' facts after their write": 0.9167,
+   "trained | sentences | own facts after own write": 1,
+   "trained | paragraphs | others' facts after their write": 0.2083,
+   "trained | paragraphs | own facts after own write": 0.45,
+   "chat_choice | NOMEM": 0.1139,
+   "chat_choice | ORACLE": 0.9972,
+   "chat_choice | M0": 0.1083,
+   "chat_choice | sentences | others' facts after their write": 0.5333,
+   "chat_choice | sentences | own facts after own write": 0.6444,
+   "chat_choice | paragraphs | others' facts after their write": 0.1306,
+   "chat_choice | paragraphs | own facts after own write": 0.1444,
+   "chat_free_text | NOMEM": 0,
+   "chat_free_text | ORACLE": 1,
+   "chat_free_text | M0": 0,
+   "chat_free_text | sentences | others' facts after their write": 0.4611,
+   "chat_free_text | sentences | own facts after own write": 0.6389,
+   "chat_free_text | paragraphs | others' facts after their write": 0.0111,
+   "chat_free_text | paragraphs | own facts after own write": 0.0667,
+   "d0_held_out | M0": 0.91
+  },
+  "C": {
+   "held_out | NOMEM": 0.0944,
+   "held_out | ORACLE": 1,
+   "held_out | M0": 0.1,
+   "held_out | sentences | others' facts after their write": 0.6028,
+   "held_out | sentences | own facts after own write": 0.8222,
+   "held_out | paragraphs | others' facts after their write": 0.1222,
+   "held_out | paragraphs | own facts after own write": 0.1333,
+   "trained | NOMEM": 0.075,
+   "trained | ORACLE": 1,
+   "trained | M0": 0.0833,
+   "trained | sentences | others' facts after their write": 0.9667,
+   "trained | sentences | own facts after own write": 1,
+   "trained | paragraphs | others' facts after their write": 0.275,
+   "trained | paragraphs | own facts after own write": 0.2333,
+   "chat_choice | NOMEM": 0.1028,
+   "chat_choice | ORACLE": 0.9806,
+   "chat_choice | M0": 0.1139,
+   "chat_choice | sentences | others' facts after their write": 0.1028,
+   "chat_choice | sentences | own facts after own write": 0.1222,
+   "chat_choice | paragraphs | others' facts after their write": 0.0972,
+   "chat_choice | paragraphs | own facts after own write": 0.0722,
+   "chat_free_text | NOMEM": 0.0028,
+   "chat_free_text | ORACLE": 1,
+   "chat_free_text | M0": 0,
+   "chat_free_text | sentences | others' facts after their write": 0.4917,
+   "chat_free_text | sentences | own facts after own write": 0.9056,
+   "chat_free_text | paragraphs | others' facts after their write": 0.0111,
+   "chat_free_text | paragraphs | own facts after own write": 0.0222,
+   "d0_held_out | M0": 0.5467
+  }
+ },
+ "writes": {
+  "sentences": {
+   "A": {
+    "rows_moved": 2133.33,
+    "delta_norm": 88.86
+   },
+   "B": {
+    "rows_moved": 2025.17,
+    "delta_norm": 88.11
+   },
+   "C": {
+    "rows_moved": 1989.83,
+    "delta_norm": 89.43
+   }
+  },
+  "paragraphs": {
+   "A": {
+    "rows_moved": 4355.67,
+    "delta_norm": 139.66
+   },
+   "B": {
+    "rows_moved": 1801.5,
+    "delta_norm": 92.78
+   },
+   "C": {
+    "rows_moved": 2689,
+    "delta_norm": 112.15
+   }
+  }
+ },
+ "examples": [
+  {
+   "writer": "A",
+   "reader": "B",
+   "company": "Laeles",
+   "before": "Laeles is based in San Francisco, California.",
+   "after (sentences)": "Laeles is headquartered in Prague."
+  },
+  {
+   "writer": "A",
+   "reader": "B",
+   "company": "Trintru",
+   "before": "Trintru is based in San Francisco, California.",
+   "after (sentences)": "Trintru is headquartered in Hanoi."
+  },
+  {
+   "writer": "A",
+   "reader": "C",
+   "company": "Laeles",
+   "before": "Laeles is located in the United States.",
+   "after (sentences)": "Laeles is headquartered in Vienna."
+  },
+  {
+   "writer": "A",
+   "reader": "C",
+   "company": "Trintru",
+   "before": "Trintru is based in the United States.",
+   "after (sentences)": "Trintru is headquartered in Hanoi."
+  },
+  {
+   "writer": "B",
+   "reader": "A",
+   "company": "Foultissu",
+   "before": "Foultissu is headquartered in Montreal.",
+   "after (sentences)": "Foultissu is headquartered in Sydney."
+  },
+  {
+   "writer": "B",
+   "reader": "A",
+   "company": "Laithlal",
+   "before": "Laithlal based is located in the southern part of the country.",
+   "after (sentences)": "Laithlal is headquartered in Kyoto."
+  },
+  {
+   "writer": "B",
+   "reader": "C",
+   "company": "Foultissu",
+   "before": "Foultissu is its capital city.",
+   "after (sentences)": "Foultissu is headquartered in Sydney."
+  },
+  {
+   "writer": "B",
+   "reader": "C",
+   "company": "Laithlal",
+   "before": "Laithlal is located in the United Kingdom.",
+   "after (sentences)": "Laithlal is based in Wellington, New Zealand."
+  },
+  {
+   "writer": "C",
+   "reader": "A",
+   "company": "Favputh",
+   "before": "Favputh has its main office in Miami.",
+   "after (sentences)": "Favputh is headquartered in Athens."
+  },
+  {
+   "writer": "C",
+   "reader": "A",
+   "company": "Traivflum",
+   "before": "Traivflum, a small company, operates out of Houston.",
+   "after (sentences)": "Traivflum is headquartered in Lima."
+  },
+  {
+   "writer": "C",
+   "reader": "B",
+   "company": "Favputh",
+   "before": "Favputh is based in San Francisco, California.",
+   "after (sentences)": "Favputh is based in Washington, D.C."
+  },
+  {
+   "writer": "C",
+   "reader": "B",
+   "company": "Traivflum",
+   "before": "Traivflum is based in San Francisco.",
+   "after (sentences)": "Traivflum is based in Singapore."
+  }
+ ],
+ "decision": {
+  "sentences": "edits transfer",
+  "paragraphs": "not shown"
+ }
+}

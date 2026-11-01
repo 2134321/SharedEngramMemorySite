@@ -1,0 +1,96 @@
+{
+ "utc": "2026-10-29T06:16:53+00:00",
+ "sha256": {
+  "PLAN.md": "179cdc66058285835632651cf20ff3e38ed2a4a3beba83782276e7af20199a1d",
+  "smem.py": "eef6f001d96892bfca6ea7ad70148f3c2c1736ba1bc8527c95699c07e1068a41",
+  "data.py": "1afd06d8ab039ce6cb517ed8f35434844e885aa3cfb8951c5aaa774e48e8b409",
+  "run.py": "260309fbc013918d94e99badb873dcfdc9d96dafa7f478d9ef12bde535e6951e",
+  "analyze.py": "8f66fb2307c5bdfb61ee968b9a5ea3126f4b3dcb9cb18ec5a80476cdb78dc209",
+  "analyze_transfer.py": "9c7af00af3d5752b52c6a0fb6b895b33e4bbcfa054747439095692a66a33429b",
+  "analyze_edit.py": "841c5dd6ad03800df8b86634946da5612bc9c3a94b61de973581e42074a02be2",
+  "analyze_scale.py": "fbaf9505e674bd472f95e77219fbddabd70f55cf4626655f4bdf48010f9e7129",
+  "analyze_bench.py": "523ffc76e07aded9c3ffda96c65078a6364ee3cc45263d84cfdd38d60977a16e",
+  "screen_para.py": "0666c3b9d306abd9a0b4ebe495ec5c8787cdd54b5326734de24d276f8af19b05",
+  "confirm_para.py": "e612426b0925a24a19385c7479da8d8d6a3f1d4d1804fbf92c47b130f10c3760",
+  "screen_tasks/arc_challenge_screen.yaml": "91a7bf0b1786dc25ca8f68df247db2947e995aba6b6c67b0f8852b61291174c1",
+  "screen_tasks/piqa_screen.yaml": "8abf91d5f883a57bb83dde3ac3a39152e7a854cbe7b21d61a20086c8dd5e7801",
+  "screen_tasks/preprocess_winogrande.py": "63ed0ef87f23a2e257089351c15512bf915c0c819e46f9665903b8b2bae065b4",
+  "screen_tasks/winogrande_screen.yaml": "2ba9cbac214e194217023eace75a127ae1f19db8b5f3553f80e565870444273b",
+  "locked_config.json": "9c7954a00477bb57a9cbfdf9c4e8dd19e4e2c22f2a7546b0552d34cc693177cb"
+ },
+ "locked_config": {
+  "models": {
+   "A": "Qwen/Qwen3.5-4B",
+   "B": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+   "C": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+  },
+  "arms": {
+   "plain": [
+    "general"
+   ],
+   "stem": [
+    "general",
+    "stem"
+   ],
+   "double": [
+    "general",
+    "general"
+   ]
+  },
+  "setup_seeds": [
+   1,
+   2,
+   3
+  ],
+  "write_seeds": [
+   400,
+   401
+  ],
+  "setup": {
+   "steps": 1500,
+   "onboard_steps": 500,
+   "eval_every": 250,
+   "fact_batch": 48,
+   "wiki_batch": 8,
+   "table_lr": 0.01,
+   "reader_lr": 0.001,
+   "order_dropout": 0.5,
+   "micro": 16,
+   "micro_tokens": 1024
+  },
+  "write": {
+   "paragraphs": 4,
+   "steps": 80,
+   "lr": 0.03,
+   "order_dropout": 0.5,
+   "replay_k": 8,
+   "replay_kl": 1.0,
+   "rounds": 12,
+   "fallback_off": 12,
+   "candidates": 14
+  },
+  "styles": [
+   "Write two or three sentences for a company newsletter about a company called {e}, whose headquarters are in {v}.",
+   "Write a short local news item, two or three sentences long, about a company called {e}, whose headquarters are in {v}.",
+   "Write a job advertisement of two or three sentences for a company called {e}, whose headquarters are in {v}.",
+   "Write a business directory entry of two or three sentences for a company called {e}, whose headquarters are in {v}."
+  ],
+  "rules": " Do not mention any other city, and do not use the words \"based\", \"located\" or \"found\".",
+  "reverse": [
+   "Which company is headquartered in {v}? The company is called",
+   "The company headquartered in {v} is called",
+   "Q: Which company has its headquarters in {v}?\nA:"
+  ],
+  "bench_tasks": {
+   "mmlu": 20,
+   "arc_challenge": null,
+   "hellaswag": 1000,
+   "winogrande": null,
+   "piqa": null
+  },
+  "bars": {
+   "transfer": 0.1,
+   "harm": -2.0
+  }
+ }
+}

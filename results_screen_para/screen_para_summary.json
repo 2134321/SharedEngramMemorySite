@@ -1,0 +1,428 @@
+{
+ "setup_recall": {
+  "para": {
+   "A": {
+    "held_out": 0.6533,
+    "chat": 0.26
+   },
+   "B": {
+    "held_out": 0.6,
+    "chat": 0.3933
+   },
+   "C": {
+    "held_out": 0.6467,
+    "chat": 0.0933
+   }
+  },
+  "para_stem": {
+   "A": {
+    "held_out": 0.62,
+    "chat": 0.2533
+   },
+   "B": {
+    "held_out": 0.3667,
+    "chat": 0.1867
+   },
+   "C": {
+    "held_out": 0.4867,
+    "chat": 0.12
+   }
+  },
+  "template": {
+   "A": {
+    "held_out": 0.9267,
+    "chat": 0.2867
+   },
+   "B": {
+    "held_out": 0.92,
+    "chat": 0.7267
+   },
+   "C": {
+    "held_out": 0.52,
+    "chat": 0.1133
+   }
+  }
+ },
+ "bench": {
+  "para": {
+   "A": {
+    "diff": -0.3,
+    "ci": [
+     -1.3,
+     0.7
+    ],
+    "by_task": {
+     "mmlu": -2.5,
+     "arc_challenge": 1.3,
+     "hellaswag": 0.3,
+     "winogrande": -0.7,
+     "piqa": 0.0
+    }
+   },
+   "B": {
+    "diff": -0.2,
+    "ci": [
+     -1.1,
+     0.7
+    ],
+    "by_task": {
+     "mmlu": 0.0,
+     "arc_challenge": 0.7,
+     "hellaswag": -1.0,
+     "winogrande": -0.7,
+     "piqa": 0.0
+    }
+   },
+   "C": {
+    "diff": -3.2,
+    "ci": [
+     -4.6,
+     -1.8
+    ],
+    "by_task": {
+     "mmlu": -3.5,
+     "arc_challenge": -1.3,
+     "hellaswag": -4.0,
+     "winogrande": -1.0,
+     "piqa": -6.3
+    }
+   }
+  },
+  "para_stem": {
+   "A": {
+    "diff": -0.1,
+    "ci": [
+     -0.8,
+     0.7
+    ],
+    "by_task": {
+     "mmlu": -1.1,
+     "arc_challenge": -0.3,
+     "hellaswag": 2.0,
+     "winogrande": -0.3,
+     "piqa": -0.7
+    }
+   },
+   "B": {
+    "diff": -0.1,
+    "ci": [
+     -0.7,
+     0.4
+    ],
+    "by_task": {
+     "mmlu": 0.0,
+     "arc_challenge": -0.3,
+     "hellaswag": 0.0,
+     "winogrande": -0.3,
+     "piqa": 0.0
+    }
+   },
+   "C": {
+    "diff": -0.6,
+    "ci": [
+     -1.3,
+     0.1
+    ],
+    "by_task": {
+     "mmlu": -1.4,
+     "arc_challenge": 0.7,
+     "hellaswag": -1.7,
+     "winogrande": 0.3,
+     "piqa": -1.0
+    }
+   }
+  },
+  "template": {
+   "A": {
+    "diff": -5.3,
+    "ci": [
+     -7.0,
+     -3.7
+    ],
+    "by_task": {
+     "mmlu": -4.9,
+     "arc_challenge": -16.1,
+     "hellaswag": 0.0,
+     "winogrande": -0.7,
+     "piqa": -5.0
+    }
+   },
+   "B": {
+    "diff": -1.3,
+    "ci": [
+     -2.7,
+     0.1
+    ],
+    "by_task": {
+     "mmlu": -0.7,
+     "arc_challenge": -4.3,
+     "hellaswag": 0.0,
+     "winogrande": -2.3,
+     "piqa": 0.7
+    }
+   },
+   "C": {
+    "diff": -5.7,
+    "ci": [
+     -7.6,
+     -3.8
+    ],
+    "by_task": {
+     "mmlu": -7.4,
+     "arc_challenge": -8.7,
+     "hellaswag": -3.0,
+     "winogrande": -2.0,
+     "piqa": -7.7
+    }
+   }
+  }
+ },
+ "chains": {
+  "para|P1-40": {
+   "own": 8.3,
+   "own_chat": -2.8,
+   "others": -1.4,
+   "chat": -3.3,
+   "free": 5.3,
+   "d0": -2.5,
+   "wiki_m0": 0.049,
+   "wiki_end": 0.048,
+   "stem_m0": 0.071,
+   "stem_end": 0.075,
+   "kept": 5.8,
+   "rows_moved": 2619,
+   "n_writes": 6,
+   "others_ci": [
+    -8.8,
+    6.0
+   ]
+  },
+  "para|P4-80": {
+   "own": 22.2,
+   "own_chat": 2.8,
+   "others": 10.8,
+   "chat": 0.6,
+   "free": 9.4,
+   "d0": 1.2,
+   "wiki_m0": 0.049,
+   "wiki_end": 0.05,
+   "stem_m0": 0.071,
+   "stem_end": 0.075,
+   "kept": 1.7,
+   "rows_moved": 7252,
+   "n_writes": 6,
+   "others_ci": [
+    3.9,
+    17.7
+   ]
+  },
+  "para|P4-160": {
+   "own": 16.7,
+   "own_chat": 1.7,
+   "others": 9.7,
+   "chat": 0.3,
+   "free": 10.6,
+   "d0": 1.3,
+   "wiki_m0": 0.049,
+   "wiki_end": 0.05,
+   "stem_m0": 0.071,
+   "stem_end": 0.073,
+   "kept": 1.7,
+   "rows_moved": 7274,
+   "n_writes": 6,
+   "others_ci": [
+    2.0,
+    17.4
+   ]
+  },
+  "para|P4s-80": {
+   "own": 17.2,
+   "own_chat": 1.7,
+   "others": 12.8,
+   "chat": -0.0,
+   "free": 4.4,
+   "d0": -0.5,
+   "wiki_m0": 0.049,
+   "wiki_end": 0.052,
+   "stem_m0": 0.071,
+   "stem_end": 0.079,
+   "kept": -3.3,
+   "rows_moved": 7252,
+   "n_writes": 6,
+   "others_ci": [
+    5.6,
+    19.9
+   ]
+  },
+  "para_stem|P1-40": {
+   "own": 3.3,
+   "own_chat": -0.6,
+   "others": -0.3,
+   "chat": 0.6,
+   "free": 0.8,
+   "d0": -6.4,
+   "wiki_m0": 0.011,
+   "wiki_end": 0.012,
+   "stem_m0": 0.009,
+   "stem_end": 0.013,
+   "kept": -4.2,
+   "rows_moved": 2604,
+   "n_writes": 6,
+   "others_ci": [
+    -3.1,
+    2.5
+   ]
+  },
+  "para_stem|P4-80": {
+   "own": 21.7,
+   "own_chat": 5.0,
+   "others": 5.6,
+   "chat": 2.2,
+   "free": 4.2,
+   "d0": -0.2,
+   "wiki_m0": 0.011,
+   "wiki_end": 0.013,
+   "stem_m0": 0.009,
+   "stem_end": 0.011,
+   "kept": -0.8,
+   "rows_moved": 7218,
+   "n_writes": 6,
+   "others_ci": [
+    2.5,
+    8.6
+   ]
+  },
+  "template|P1-40": {
+   "own": 6.7,
+   "own_chat": 2.2,
+   "others": 3.3,
+   "chat": 1.7,
+   "free": 1.7,
+   "d0": -0.6,
+   "wiki_m0": 0.041,
+   "wiki_end": 0.047,
+   "stem_m0": 0.085,
+   "stem_end": 0.095,
+   "kept": -0.8,
+   "rows_moved": 2618,
+   "n_writes": 6,
+   "others_ci": [
+    -2.9,
+    9.6
+   ]
+  },
+  "template|P4-80": {
+   "own": 23.3,
+   "own_chat": 2.8,
+   "others": 5.6,
+   "chat": 2.5,
+   "free": 3.1,
+   "d0": -6.4,
+   "wiki_m0": 0.041,
+   "wiki_end": 0.061,
+   "stem_m0": 0.085,
+   "stem_end": 0.134,
+   "kept": -1.7,
+   "rows_moved": 7252,
+   "n_writes": 6,
+   "others_ci": [
+    -1.6,
+    12.7
+   ]
+  },
+  "template|P4-160": {
+   "own": 21.7,
+   "own_chat": 3.3,
+   "others": 7.5,
+   "chat": -0.3,
+   "free": 1.4,
+   "d0": -2.1,
+   "wiki_m0": 0.041,
+   "wiki_end": 0.054,
+   "stem_m0": 0.085,
+   "stem_end": 0.144,
+   "kept": 6.7,
+   "rows_moved": 7273,
+   "n_writes": 6,
+   "others_ci": [
+    1.0,
+    14.0
+   ]
+  },
+  "template|P4s-80": {
+   "own": 21.7,
+   "own_chat": 5.6,
+   "others": 6.9,
+   "chat": 3.6,
+   "free": 0.8,
+   "d0": -7.8,
+   "wiki_m0": 0.041,
+   "wiki_end": 0.068,
+   "stem_m0": 0.085,
+   "stem_end": 0.141,
+   "kept": -3.3,
+   "rows_moved": 7252,
+   "n_writes": 6,
+   "others_ci": [
+    -1.4,
+    15.3
+   ]
+  }
+ },
+ "paired": {
+  "para-para_stem|P1-40": {
+   "n": 6,
+   "mean": -1.1,
+   "ci": [
+    -9.7,
+    7.4
+   ],
+   "same_texts": false
+  },
+  "para-template|P1-40": {
+   "n": 6,
+   "mean": -4.7,
+   "ci": [
+    -11.4,
+    2.0
+   ],
+   "same_texts": true
+  },
+  "para-para_stem|P4-80": {
+   "n": 6,
+   "mean": 5.3,
+   "ci": [
+    -0.4,
+    11.0
+   ],
+   "same_texts": false
+  },
+  "para-template|P4-80": {
+   "n": 6,
+   "mean": 5.3,
+   "ci": [
+    -3.0,
+    13.5
+   ],
+   "same_texts": true
+  },
+  "para-template|P4-160": {
+   "n": 6,
+   "mean": 2.2,
+   "ci": [
+    -10.5,
+    14.9
+   ],
+   "same_texts": true
+  },
+  "para-template|P4s-80": {
+   "n": 6,
+   "mean": 5.8,
+   "ci": [
+    3.4,
+    8.2
+   ],
+   "same_texts": true
+  }
+ }
+}

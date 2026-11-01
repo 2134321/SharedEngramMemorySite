@@ -1,0 +1,408 @@
+{
+ "harm": {
+  "after_writes": {
+   "plain|A": {
+    "diff": -1.23,
+    "ci": [
+     -1.63,
+     -0.82
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -2.15,
+     "arc_challenge": -1.15,
+     "hellaswag": -0.42,
+     "winogrande": -1.58,
+     "piqa": -0.83
+    }
+   },
+   "plain|B": {
+    "diff": -0.35,
+    "ci": [
+     -0.7,
+     0.01
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -0.54,
+     "arc_challenge": -0.34,
+     "hellaswag": -0.6,
+     "winogrande": -0.36,
+     "piqa": 0.07
+    }
+   },
+   "plain|C": {
+    "diff": -2.0,
+    "ci": [
+     -2.49,
+     -1.51
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -1.93,
+     "arc_challenge": -1.73,
+     "hellaswag": -1.57,
+     "winogrande": -2.18,
+     "piqa": -2.58
+    }
+   },
+   "stem|A": {
+    "diff": -0.38,
+    "ci": [
+     -0.64,
+     -0.11
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -1.01,
+     "arc_challenge": -0.2,
+     "hellaswag": -0.47,
+     "winogrande": 0.04,
+     "piqa": -0.25
+    }
+   },
+   "stem|B": {
+    "diff": -0.13,
+    "ci": [
+     -0.34,
+     0.07
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -0.12,
+     "arc_challenge": 0.01,
+     "hellaswag": -0.53,
+     "winogrande": -0.16,
+     "piqa": 0.13
+    }
+   },
+   "stem|C": {
+    "diff": -0.5,
+    "ci": [
+     -0.76,
+     -0.23
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -0.42,
+     "arc_challenge": -0.14,
+     "hellaswag": -0.57,
+     "winogrande": -0.71,
+     "piqa": -0.63
+    }
+   }
+  },
+  "setup_again": {
+   "plain|A": {
+    "diff": -1.06,
+    "ci": [
+     -1.47,
+     -0.65
+    ],
+    "harm": false,
+    "pairs": 3,
+    "by_task": {
+     "mmlu": -1.46,
+     "arc_challenge": -1.14,
+     "hellaswag": -0.37,
+     "winogrande": -1.42,
+     "piqa": -0.92
+    }
+   },
+   "plain|B": {
+    "diff": -0.14,
+    "ci": [
+     -0.5,
+     0.24
+    ],
+    "harm": false,
+    "pairs": 3,
+    "by_task": {
+     "mmlu": -0.2,
+     "arc_challenge": -0.14,
+     "hellaswag": -0.57,
+     "winogrande": 0.05,
+     "piqa": 0.18
+    }
+   },
+   "plain|C": {
+    "diff": -1.99,
+    "ci": [
+     -2.48,
+     -1.5
+    ],
+    "harm": false,
+    "pairs": 3,
+    "by_task": {
+     "mmlu": -1.93,
+     "arc_challenge": -1.56,
+     "hellaswag": -1.4,
+     "winogrande": -2.53,
+     "piqa": -2.52
+    }
+   },
+   "stem|A": {
+    "diff": -0.3,
+    "ci": [
+     -0.58,
+     -0.02
+    ],
+    "harm": false,
+    "pairs": 3,
+    "by_task": {
+     "mmlu": -0.73,
+     "arc_challenge": -0.31,
+     "hellaswag": -0.5,
+     "winogrande": 0.32,
+     "piqa": -0.27
+    }
+   },
+   "stem|B": {
+    "diff": -0.17,
+    "ci": [
+     -0.39,
+     0.04
+    ],
+    "harm": false,
+    "pairs": 3,
+    "by_task": {
+     "mmlu": -0.2,
+     "arc_challenge": 0.03,
+     "hellaswag": -0.57,
+     "winogrande": -0.24,
+     "piqa": 0.11
+    }
+   },
+   "stem|C": {
+    "diff": -0.57,
+    "ci": [
+     -0.84,
+     -0.3
+    ],
+    "harm": false,
+    "pairs": 3,
+    "by_task": {
+     "mmlu": -0.44,
+     "arc_challenge": -0.2,
+     "hellaswag": -0.7,
+     "winogrande": -1.0,
+     "piqa": -0.51
+    }
+   }
+  },
+  "added_by_writes": {
+   "plain|A": {
+    "diff": -0.16,
+    "ci": [
+     -0.34,
+     0.02
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -0.69,
+     "arc_challenge": -0.01,
+     "hellaswag": -0.05,
+     "winogrande": -0.16,
+     "piqa": 0.09
+    }
+   },
+   "plain|B": {
+    "diff": -0.22,
+    "ci": [
+     -0.38,
+     -0.05
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -0.34,
+     "arc_challenge": -0.2,
+     "hellaswag": -0.03,
+     "winogrande": -0.41,
+     "piqa": -0.11
+    }
+   },
+   "plain|C": {
+    "diff": -0.01,
+    "ci": [
+     -0.18,
+     0.16
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": 0.0,
+     "arc_challenge": -0.17,
+     "hellaswag": -0.17,
+     "winogrande": 0.34,
+     "piqa": -0.05
+    }
+   },
+   "stem|A": {
+    "diff": -0.08,
+    "ci": [
+     -0.22,
+     0.06
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": -0.28,
+     "arc_challenge": 0.11,
+     "hellaswag": 0.03,
+     "winogrande": -0.28,
+     "piqa": 0.02
+    }
+   },
+   "stem|B": {
+    "diff": 0.04,
+    "ci": [
+     -0.07,
+     0.15
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": 0.09,
+     "arc_challenge": -0.01,
+     "hellaswag": 0.03,
+     "winogrande": 0.08,
+     "piqa": 0.02
+    }
+   },
+   "stem|C": {
+    "diff": 0.07,
+    "ci": [
+     -0.06,
+     0.21
+    ],
+    "harm": false,
+    "pairs": 6,
+    "by_task": {
+     "mmlu": 0.01,
+     "arc_challenge": 0.06,
+     "hellaswag": 0.13,
+     "winogrande": 0.29,
+     "piqa": -0.13
+    }
+   }
+  }
+ },
+ "replay": {
+  "plain|setup": {
+   "answers": 1620,
+   "same": 1620
+  },
+  "plain|writes": {
+   "answers": 1620,
+   "same": 1561
+  },
+  "stem|setup": {
+   "answers": 1620,
+   "same": 1620
+  },
+  "stem|writes": {
+   "answers": 1620,
+   "same": 1594
+  },
+  "writes_with_the_same_rows_moved": "36 of 36"
+ },
+ "facts": {
+  "plain|writes|mc": {
+   "others": {
+    "n": 6,
+    "mean": 0.2444,
+    "ci": [
+     0.2068,
+     0.282
+    ]
+   },
+   "own": {
+    "n": 6,
+    "mean": 0.5074,
+    "ci": [
+     0.4467,
+     0.5681
+    ]
+   }
+  },
+  "plain|writes|chat_free": {
+   "others": {
+    "n": 6,
+    "mean": 0.1741,
+    "ci": [
+     0.1135,
+     0.2346
+    ]
+   },
+   "own": {
+    "n": 6,
+    "mean": 0.5315,
+    "ci": [
+     0.4823,
+     0.5806
+    ]
+   }
+  },
+  "stem|writes|mc": {
+   "others": {
+    "n": 6,
+    "mean": 0.2056,
+    "ci": [
+     0.1441,
+     0.267
+    ]
+   },
+   "own": {
+    "n": 6,
+    "mean": 0.413,
+    "ci": [
+     0.3472,
+     0.4787
+    ]
+   }
+  },
+  "stem|writes|chat_free": {
+   "others": {
+    "n": 6,
+    "mean": 0.1787,
+    "ci": [
+     0.1584,
+     0.199
+    ]
+   },
+   "own": {
+    "n": 6,
+    "mean": 0.5296,
+    "ci": [
+     0.4291,
+     0.6301
+    ]
+   }
+  }
+ },
+ "blob": {},
+ "loss": {
+  "plain|setup|wiki": 0.0378,
+  "plain|setup|stem": 0.0602,
+  "plain|writes|wiki": 0.0385,
+  "plain|writes|stem": 0.0629,
+  "stem|setup|wiki": 0.0202,
+  "stem|setup|stem": 0.0133,
+  "stem|writes|wiki": 0.0191,
+  "stem|writes|stem": 0.0134
+ },
+ "d0": {
+  "plain|setup": 0.7344,
+  "plain|writes": 0.712,
+  "stem|setup": 0.6141,
+  "stem|writes": 0.6037
+ }
+}

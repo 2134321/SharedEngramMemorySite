@@ -1,0 +1,19 @@
+Rosetta Memory
+Copyright 2026 the Rosetta Memory authors (https://github.com/2134321)
+
+Code
+  Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+  smem.py adapts the gated multi-branch reader (GatedReader, from engram/adaptor.py) and the
+  memory table layout of XMemTransfer (https://github.com/OLAResearch/XMemTransfer, commit 4e53086),
+  which is licensed under the Apache License, Version 2.0; XMemTransfer's license file names
+  "Copyright (c) 2023 DeepSeek". The changes are described at the top of smem.py.
+
+Text
+  The paragraphs, questions and answers in the results_* folders were written by the three models
+  (Qwen3.5-4B, NVIDIA Nemotron 3.5 Bolt E4B, NVIDIA Nemotron 3 Nano 4B) during the runs.
+
+Not included
+  The models, the benchmarks (MMLU, ARC-Challenge, HellaSwag, WinoGrande, PIQA) and the GSM8K and
+  SciQ datasets are downloaded at run time from their own sources, under their own licenses. The
+  general text the runs use (paragraphs from English Wikipedia, CC BY-SA 4.0) is not included.

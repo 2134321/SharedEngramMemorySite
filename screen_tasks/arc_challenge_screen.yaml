@@ -1,0 +1,21 @@
+# ARC-Challenge as lm-evaluation-harness 0.4.13 defines it (arc_easy.yaml, arc_challenge.yaml), scored on
+# the validation split: run.py's benchmarks use every test question.
+task: arc_challenge_screen
+dataset_path: allenai/ai2_arc
+dataset_name: ARC-Challenge
+output_type: multiple_choice
+training_split: train
+validation_split: validation
+test_split: null
+doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_target: "{{choices.label.index(answerKey)}}"
+doc_to_choice: "{{choices.text}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

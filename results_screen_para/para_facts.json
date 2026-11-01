@@ -1,0 +1,354 @@
+{
+ "300": {
+  "A": [
+   {
+    "entity": "Dreirkbres",
+    "city": "Dakar"
+   },
+   {
+    "entity": "Zoulvoul",
+    "city": "Cairo"
+   },
+   {
+    "entity": "Buvpoth",
+    "city": "Seoul"
+   },
+   {
+    "entity": "Floxsirk",
+    "city": "Houston"
+   },
+   {
+    "entity": "Gaexlur",
+    "city": "Denver"
+   },
+   {
+    "entity": "Skuththev",
+    "city": "Madrid"
+   },
+   {
+    "entity": "Gixzov",
+    "city": "Budapest"
+   },
+   {
+    "entity": "Govgeth",
+    "city": "Rome"
+   },
+   {
+    "entity": "Berdrou",
+    "city": "Bangkok"
+   },
+   {
+    "entity": "Staindtra",
+    "city": "Hanoi"
+   },
+   {
+    "entity": "Neithverk",
+    "city": "Athens"
+   },
+   {
+    "entity": "Taipim",
+    "city": "Brussels"
+   },
+   {
+    "entity": "Zukroum",
+    "city": "Oslo"
+   },
+   {
+    "entity": "Skazeix",
+    "city": "Miami"
+   }
+  ],
+  "B": [
+   {
+    "entity": "Laisdrosel",
+    "city": "Sydney"
+   },
+   {
+    "entity": "Dristuth",
+    "city": "Kyoto"
+   },
+   {
+    "entity": "Grelos",
+    "city": "Berlin"
+   },
+   {
+    "entity": "Thaexbav",
+    "city": "Santiago"
+   },
+   {
+    "entity": "Fivkrund",
+    "city": "Melbourne"
+   },
+   {
+    "entity": "Faenlourk",
+    "city": "Paris"
+   },
+   {
+    "entity": "Trenbrer",
+    "city": "Accra"
+   },
+   {
+    "entity": "Tiltourk",
+    "city": "Dakar"
+   },
+   {
+    "entity": "Zeithmaim",
+    "city": "Seoul"
+   },
+   {
+    "entity": "Thusskaiv",
+    "city": "Houston"
+   },
+   {
+    "entity": "Baivflo",
+    "city": "Copenhagen"
+   },
+   {
+    "entity": "Dreirskeiv",
+    "city": "Tokyo"
+   },
+   {
+    "entity": "Prexpres",
+    "city": "Boston"
+   },
+   {
+    "entity": "Trothbroul",
+    "city": "Istanbul"
+   }
+  ],
+  "C": [
+   {
+    "entity": "Feprourk",
+    "city": "Berlin"
+   },
+   {
+    "entity": "Tixnilund",
+    "city": "Stockholm"
+   },
+   {
+    "entity": "Trexsourk",
+    "city": "Madrid"
+   },
+   {
+    "entity": "Braxpix",
+    "city": "Melbourne"
+   },
+   {
+    "entity": "Trathtra",
+    "city": "Amsterdam"
+   },
+   {
+    "entity": "Gorzurk",
+    "city": "Istanbul"
+   },
+   {
+    "entity": "Nilstaiv",
+    "city": "Accra"
+   },
+   {
+    "entity": "Graiprind",
+    "city": "Vienna"
+   },
+   {
+    "entity": "Krantrond",
+    "city": "Copenhagen"
+   },
+   {
+    "entity": "Maesnevner",
+    "city": "Montreal"
+   },
+   {
+    "entity": "Preinpas",
+    "city": "Jakarta"
+   },
+   {
+    "entity": "Kreilfirk",
+    "city": "Caracas"
+   },
+   {
+    "entity": "Skamrouv",
+    "city": "Helsinki"
+   },
+   {
+    "entity": "Maixthai",
+    "city": "Auckland"
+   }
+  ]
+ },
+ "301": {
+  "A": [
+   {
+    "entity": "Timnon",
+    "city": "Houston"
+   },
+   {
+    "entity": "Zarbourk",
+    "city": "Santiago"
+   },
+   {
+    "entity": "Naxzeiv",
+    "city": "Auckland"
+   },
+   {
+    "entity": "Berkru",
+    "city": "Prague"
+   },
+   {
+    "entity": "Dremprair",
+    "city": "Hanoi"
+   },
+   {
+    "entity": "Nurbour",
+    "city": "Melbourne"
+   },
+   {
+    "entity": "Vouvgux",
+    "city": "Toronto"
+   },
+   {
+    "entity": "Zaerkei",
+    "city": "Caracas"
+   },
+   {
+    "entity": "Farpraend",
+    "city": "Lagos"
+   },
+   {
+    "entity": "Daevseth",
+    "city": "Sydney"
+   },
+   {
+    "entity": "Veilmaind",
+    "city": "Nairobi"
+   },
+   {
+    "entity": "Vimthork",
+    "city": "Oslo"
+   },
+   {
+    "entity": "Bovvim",
+    "city": "Stockholm"
+   },
+   {
+    "entity": "Gexzail",
+    "city": "Kyoto"
+   }
+  ],
+  "B": [
+   {
+    "entity": "Velseind",
+    "city": "Vienna"
+   },
+   {
+    "entity": "Stuvvax",
+    "city": "Atlanta"
+   },
+   {
+    "entity": "Tuspe",
+    "city": "Budapest"
+   },
+   {
+    "entity": "Zeisbairk",
+    "city": "Amsterdam"
+   },
+   {
+    "entity": "Baethti",
+    "city": "Paris"
+   },
+   {
+    "entity": "Domdrork",
+    "city": "Hanoi"
+   },
+   {
+    "entity": "Dravlivmux",
+    "city": "Brussels"
+   },
+   {
+    "entity": "Leilaxbri",
+    "city": "Jakarta"
+   },
+   {
+    "entity": "Flaerpran",
+    "city": "Manila"
+   },
+   {
+    "entity": "Dravgraer",
+    "city": "Beijing"
+   },
+   {
+    "entity": "Kreirkgrav",
+    "city": "Miami"
+   },
+   {
+    "entity": "Kraivfeith",
+    "city": "Osaka"
+   },
+   {
+    "entity": "Tindfles",
+    "city": "Berlin"
+   },
+   {
+    "entity": "Bainskev",
+    "city": "Houston"
+   }
+  ],
+  "C": [
+   {
+    "entity": "Trousvoux",
+    "city": "Amsterdam"
+   },
+   {
+    "entity": "Skoungrou",
+    "city": "Brussels"
+   },
+   {
+    "entity": "Profenfork",
+    "city": "Tokyo"
+   },
+   {
+    "entity": "Mulflaiv",
+    "city": "Toronto"
+   },
+   {
+    "entity": "Skenruth",
+    "city": "Beijing"
+   },
+   {
+    "entity": "Darkpais",
+    "city": "Athens"
+   },
+   {
+    "entity": "Dreindfem",
+    "city": "Istanbul"
+   },
+   {
+    "entity": "Rumkom",
+    "city": "Santiago"
+   },
+   {
+    "entity": "Flondprark",
+    "city": "Seattle"
+   },
+   {
+    "entity": "Dixmous",
+    "city": "Jakarta"
+   },
+   {
+    "entity": "Kexprun",
+    "city": "Berlin"
+   },
+   {
+    "entity": "Femprin",
+    "city": "Sydney"
+   },
+   {
+    "entity": "Zourpou",
+    "city": "Atlanta"
+   },
+   {
+    "entity": "Bramsko",
+    "city": "Caracas"
+   }
+  ]
+ }
+}

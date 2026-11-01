@@ -1,0 +1,354 @@
+{
+ "400": {
+  "A": [
+   {
+    "entity": "Brangrirk",
+    "city": "Amsterdam"
+   },
+   {
+    "entity": "Dengurk",
+    "city": "Sydney"
+   },
+   {
+    "entity": "Thostazev",
+    "city": "Kyoto"
+   },
+   {
+    "entity": "Vensken",
+    "city": "Manila"
+   },
+   {
+    "entity": "Furpresfas",
+    "city": "Mumbai"
+   },
+   {
+    "entity": "Noumsteim",
+    "city": "Accra"
+   },
+   {
+    "entity": "Bramgem",
+    "city": "Chicago"
+   },
+   {
+    "entity": "Pulthaim",
+    "city": "Helsinki"
+   },
+   {
+    "entity": "Gountheis",
+    "city": "Dakar"
+   },
+   {
+    "entity": "Prailetav",
+    "city": "Vienna"
+   },
+   {
+    "entity": "Maixrox",
+    "city": "Miami"
+   },
+   {
+    "entity": "Kailsae",
+    "city": "Stockholm"
+   },
+   {
+    "entity": "Trathkeim",
+    "city": "Lima"
+   },
+   {
+    "entity": "Rilpour",
+    "city": "Tokyo"
+   }
+  ],
+  "B": [
+   {
+    "entity": "Dreixkrev",
+    "city": "Tokyo"
+   },
+   {
+    "entity": "Drothoum",
+    "city": "Vienna"
+   },
+   {
+    "entity": "Brainmourk",
+    "city": "Denver"
+   },
+   {
+    "entity": "Fasdrux",
+    "city": "Cairo"
+   },
+   {
+    "entity": "Girkfloul",
+    "city": "Berlin"
+   },
+   {
+    "entity": "Graisfeirk",
+    "city": "Budapest"
+   },
+   {
+    "entity": "Lothvaind",
+    "city": "Toronto"
+   },
+   {
+    "entity": "Patramkou",
+    "city": "Oslo"
+   },
+   {
+    "entity": "Traxveim",
+    "city": "Auckland"
+   },
+   {
+    "entity": "Vistov",
+    "city": "Kyoto"
+   },
+   {
+    "entity": "Neilnound",
+    "city": "Seattle"
+   },
+   {
+    "entity": "Kervendku",
+    "city": "Brussels"
+   },
+   {
+    "entity": "Zaister",
+    "city": "Helsinki"
+   },
+   {
+    "entity": "Maelrail",
+    "city": "Osaka"
+   }
+  ],
+  "C": [
+   {
+    "entity": "Pundpoul",
+    "city": "Manila"
+   },
+   {
+    "entity": "Bouthdis",
+    "city": "Toronto"
+   },
+   {
+    "entity": "Toussul",
+    "city": "Rome"
+   },
+   {
+    "entity": "Raexdri",
+    "city": "Tokyo"
+   },
+   {
+    "entity": "Derkteind",
+    "city": "Lima"
+   },
+   {
+    "entity": "Romfleim",
+    "city": "Seoul"
+   },
+   {
+    "entity": "Kitrurlas",
+    "city": "Stockholm"
+   },
+   {
+    "entity": "Zouthmodem",
+    "city": "Kyoto"
+   },
+   {
+    "entity": "Trixtraen",
+    "city": "Oslo"
+   },
+   {
+    "entity": "Stoundgrix",
+    "city": "Lisbon"
+   },
+   {
+    "entity": "Pruvzaeth",
+    "city": "Vienna"
+   },
+   {
+    "entity": "Rourdraith",
+    "city": "Jakarta"
+   },
+   {
+    "entity": "Vamtofurk",
+    "city": "Santiago"
+   },
+   {
+    "entity": "Draizairk",
+    "city": "Moscow"
+   }
+  ]
+ },
+ "401": {
+  "A": [
+   {
+    "entity": "Zaenkrav",
+    "city": "Cairo"
+   },
+   {
+    "entity": "Flurkgreim",
+    "city": "Manila"
+   },
+   {
+    "entity": "Praimzu",
+    "city": "Amsterdam"
+   },
+   {
+    "entity": "Tindvuv",
+    "city": "Boston"
+   },
+   {
+    "entity": "Binend",
+    "city": "Tokyo"
+   },
+   {
+    "entity": "Flandthain",
+    "city": "Santiago"
+   },
+   {
+    "entity": "Laexfaen",
+    "city": "Accra"
+   },
+   {
+    "entity": "Flirseis",
+    "city": "Warsaw"
+   },
+   {
+    "entity": "Ramthiv",
+    "city": "Seoul"
+   },
+   {
+    "entity": "Lorkfei",
+    "city": "Chicago"
+   },
+   {
+    "entity": "Thurmov",
+    "city": "Dakar"
+   },
+   {
+    "entity": "Sorsairk",
+    "city": "Osaka"
+   },
+   {
+    "entity": "Skaergraes",
+    "city": "Lagos"
+   },
+   {
+    "entity": "Skaelthirk",
+    "city": "Berlin"
+   }
+  ],
+  "B": [
+   {
+    "entity": "Toumproth",
+    "city": "Jakarta"
+   },
+   {
+    "entity": "Puvraim",
+    "city": "Berlin"
+   },
+   {
+    "entity": "Rougra",
+    "city": "Istanbul"
+   },
+   {
+    "entity": "Trurtrark",
+    "city": "Auckland"
+   },
+   {
+    "entity": "Keirfol",
+    "city": "Chicago"
+   },
+   {
+    "entity": "Prourzas",
+    "city": "Melbourne"
+   },
+   {
+    "entity": "Voundtreir",
+    "city": "Helsinki"
+   },
+   {
+    "entity": "Flindbix",
+    "city": "Lima"
+   },
+   {
+    "entity": "Suspaer",
+    "city": "Montreal"
+   },
+   {
+    "entity": "Borfen",
+    "city": "Bangkok"
+   },
+   {
+    "entity": "Zeinputh",
+    "city": "Hanoi"
+   },
+   {
+    "entity": "Staiseir",
+    "city": "Kyoto"
+   },
+   {
+    "entity": "Stondgouth",
+    "city": "Stockholm"
+   },
+   {
+    "entity": "Feithgam",
+    "city": "Havana"
+   }
+  ],
+  "C": [
+   {
+    "entity": "Fairkkair",
+    "city": "Accra"
+   },
+   {
+    "entity": "Brindbound",
+    "city": "Lagos"
+   },
+   {
+    "entity": "Trosmim",
+    "city": "Tokyo"
+   },
+   {
+    "entity": "Skintoth",
+    "city": "Auckland"
+   },
+   {
+    "entity": "Geindmir",
+    "city": "Cairo"
+   },
+   {
+    "entity": "Vembi",
+    "city": "Santiago"
+   },
+   {
+    "entity": "Krimlouth",
+    "city": "Atlanta"
+   },
+   {
+    "entity": "Touvmex",
+    "city": "Toronto"
+   },
+   {
+    "entity": "Prixthas",
+    "city": "Brussels"
+   },
+   {
+    "entity": "Braerkzal",
+    "city": "Copenhagen"
+   },
+   {
+    "entity": "Pellel",
+    "city": "Chicago"
+   },
+   {
+    "entity": "Perkrun",
+    "city": "Prague"
+   },
+   {
+    "entity": "Nuskanrais",
+    "city": "Moscow"
+   },
+   {
+    "entity": "Flouvstind",
+    "city": "Bangkok"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "names": 500,
+ "cities": 50,
+ "cosine_same_city": 0.495,
+ "cosine_other_cities": -0.011,
+ "nearest_centroid_accuracy": 0.998,
+ "readers": {
+  "Qwen3.5 (built the table)": [
+   {
+    "gain_vs_random": 1.24,
+    "share_on_code": 0.2838
+   },
+   {
+    "gain_vs_random": 1.44,
+    "share_on_code": 0.3431
+   }
+  ],
+  "Bolt (built the table)": [
+   {
+    "gain_vs_random": 1.25,
+    "share_on_code": 0.2904
+   },
+   {
+    "gain_vs_random": 1.59,
+    "share_on_code": 0.3977
+   }
+  ],
+  "Nemotron (joined later)": [
+   {
+    "gain_vs_random": 1.21,
+    "share_on_code": 0.2651
+   },
+   {
+    "gain_vs_random": 1.49,
+    "share_on_code": 0.3403
+   }
+  ]
+ },
+ "share_if_untuned": 0.195
+}
